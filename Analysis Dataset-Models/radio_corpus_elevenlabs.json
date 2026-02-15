@@ -1,0 +1,1077 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "optimization": "ElevenLabs TTS Professional Medical Reading",
+    "prosody_markers": [
+      "break",
+      "emphasis",
+      "natural_pauses",
+      "emotional_markers"
+    ],
+    "emotional_markers_used": [
+      "sigh",
+      "thinking",
+      "breath"
+    ],
+    "tone_variations": [
+      "clinical_neutral",
+      "analytical",
+      "concerned",
+      "routine",
+      "concentrated"
+    ],
+    "total_reports": 150
+  },
+  "reports": [
+    {
+      "id": "0",
+      "original_id": "report_CnGIjpEu9WIl3lJXeIdIY7Cd-txSUNoMToy_TWma32Y",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture <break time='300ms'/> peu déplacée <emphasis level='moderate'>du col huméral</emphasis>."
+    },
+    {
+      "id": "1",
+      "original_id": "report_QxjI35WATxkcOthJzYrmpFFdVz7Etu70eKJ-WuYocSk",
+      "category": "shoulder",
+      "tone": "clinical_neutral",
+      "tts_script": "Disjonction acromio-claviculaire. <break time='400ms'/> Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='200ms'/> Pas d'atteinte gléno-humérale. <break time='300ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "2",
+      "original_id": "report_znO7zb_1ESS_RL7NlkmnkdylTIvg5SSzSjaDTzZPzKw",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "3",
+      "original_id": "report_s00FQjZiNwYNYzembowEGM5HOmxL9OFyLz5SjiPduyg",
+      "category": "shoulder",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='300ms'/> [thinking] <emphasis level='moderate'>Déminéralisation osseuse</emphasis> de l'épaule."
+    },
+    {
+      "id": "4",
+      "original_id": "report_dazq4xPq_LhPnz2bgyQmYHcKrXx3yNo5auG2swnSmpU",
+      "category": "thorax",
+      "tone": "analytical",
+      "tts_script": "Pas de fracture costale identifiable. <break time='400ms'/> [breath] <emphasis level='strong'>Intérêt d'une TDM thoracique</emphasis>."
+    },
+    {
+      "id": "5",
+      "original_id": "report_NxSmAyYz42CeH1IRNJXaSVSHMRR_WJ0IF0bvxM7z2Ak",
+      "category": "spine_cervical",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "6",
+      "original_id": "report_KqDWw6GF2UHml2c59jAD5n3HLL30iKBAE3j_4f0uTWg",
+      "category": "thorax_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture costale identifiable. <break time='300ms'/> Pas d'anomalie pleuro-parenchymateuse."
+    },
+    {
+      "id": "7",
+      "original_id": "report_oqzb78c_pgfdiw1j5VE7h2EbK8pDy6JzqpeZG0SBT2Q",
+      "category": "spine_cervical_pathology",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> [thinking] Pincement inter-vertébral <emphasis level='moderate'>C6-C7</emphasis>. <break time='300ms'/> Ostéophytes corporéaux étagés de C4 à C7. <break time='200ms'/> Canal cervical de taille normale. <break time='400ms'/> Uncarthrose C6-C7 droite <break time='200ms'/> avec rétrécissement foraminal secondaire. <break time='300ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C3 à C7, <break time='200ms'/> plus marquée en C6-C7. <break time='300ms'/> Uncarthrose C6-C7 droite avec rétrécissement foraminal secondaire."
+    },
+    {
+      "id": "8",
+      "original_id": "report_WPaxdNrHQGE14sctuPQ4DOFp_wb8vtgP5StxXZJ37Hg",
+      "category": "ct_temporal",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Acquisition hélicoïdale sans injection. <break time='600ms'/> <emphasis level='moderate'>Résultat</emphasis> : <break time='400ms'/> Rocher droit : <break time='300ms'/> Conduit auditif externe de taille préservée et sans anomalie. <break time='200ms'/> Membrane tympanique fine. Chaîne ossiculaire intègre. <break time='300ms'/> Bonne pneumatisation mastoïdienne et de la caisse du tympan. <break time='300ms'/> Canal du nerf facial sans signe de déhiscence dans la caisse du tympan. <break time='200ms'/> Cochlée bien formée, avec deux spires et demie. <break time='300ms'/> Canaux semi-circulaires intègres et sans signe de déhiscence. <break time='200ms'/> Conduit auditif interne de taille normale et sans anomalie visible. <break time='300ms'/> Golfe jugulaire en position normale, sans procidence ni évidence de déhiscence. <break time='600ms'/> [thinking] Rocher gauche : <break time='300ms'/> Conduit auditif externe de taille préservée et sans anomalie. <break time='200ms'/> Membrane tympanique fine. Chaîne ossiculaire intègre. <break time='400ms'/> <emphasis level='moderate'>Comblement de l'oreille moyenne et des cellules mastoïdiennes</emphasis>. <break time='300ms'/> Canal du nerf facial sans signe de déhiscence dans la caisse du tympan. <break time='200ms'/> Cochlée bien formée, avec deux spires et demie. <break time='300ms'/> Canaux semi-circulaires intègres et sans signe de déhiscence. <break time='200ms'/> Conduit auditif interne de taille normale est sans anomalie visible. <break time='300ms'/> Golfe jugulaire en position normale, sans procidence ni évidence de déhiscence. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Pas d'anomalie expliquant la symptomatologie. <break time='300ms'/> Aspect en faveur d'une otomastoidite gauche. <break time='200ms'/> Rocher droit normal."
+    },
+    {
+      "id": "9",
+      "original_id": "report_azjBrTYsu4RpALhHromUeH8T9VsDvEPslV2E-qkL5LY",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "10",
+      "original_id": "report_FL6K0Brxi0Ml0GGNplbgRA80x68RAhMtszHSbEMf-lQ",
+      "category": "shoulder",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='300ms'/> [thinking] On retrouve quelques géodes au niveau de la tête humérale. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='300ms'/> Déminéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "11",
+      "original_id": "report_IYHxA9dAwW2noEWwBXhdtD5j39AMujZQlvIlzXd4kk0",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "12",
+      "original_id": "report_YIwMLNK7yV07_byhZxKWVSAJ9cft4dGSE4ao4wV_GbM",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Discrets ostéophytes en L3. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L3-L4 débutante."
+    },
+    {
+      "id": "13",
+      "original_id": "report_hVxc0Jn2egBrXkz4VN0KXrghVtq0w5VGiCxVWsM2AuI",
+      "category": "ct_brain",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Acquisition sans injection intraveineuse du produit de contraste. <break time='600ms'/> <emphasis level='moderate'>Résultat</emphasis> : <break time='400ms'/> Absence de saignement intracrânien récent. <break time='300ms'/> Absence d'anomalie de densité du parenchyme cérébral. <break time='300ms'/> Le système ventriculaire est symétrique et de taille normale. <break time='300ms'/> Absence d'anomalie des espaces liquidiens péri-cérébraux. <break time='400ms'/> Absence d'effet de masse intracrânien, <break time='200ms'/> notamment pas de déviation des structures de la ligne médiane ni d'engagement. <break time='300ms'/> Bonne aération des cavités pneumatisées. <break time='300ms'/> Absence d'anomalie significative des structures osseuses, <break time='200ms'/> notamment pas de fracture. <break time='200ms'/> Parties molles sans particularité. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='300ms'/> Absence de saignement intracrânien. <break time='200ms'/> Absence de fracture du crâne."
+    },
+    {
+      "id": "14",
+      "original_id": "report_M2wTsvq9juqnynWwUSQ3kUhwVruOZzey5faZUfAyuG4",
+      "category": "spine_cervical_pathology",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> [thinking] Pincement inter-vertébral C3-C4 et C5-C6 <break time='200ms'/> avec ostéocondensation des plateaux vertébraux en regard des disques. <break time='300ms'/> Ostéophytes corporéaux étagés de C3 à C6. <break time='300ms'/> Canal cervical de taille normale. <break time='300ms'/> Uncarthrose C5-C6 droite. <break time='300ms'/> Pas de rétrécissement foraminal significatif aux différents étages. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C3 à C6, <break time='200ms'/> plus marquée en C3-C4 et C5-C6. <break time='300ms'/> Uncarthrose C5-C6 droite sans rétrécissement foraminal objectivable."
+    },
+    {
+      "id": "15",
+      "original_id": "report_tqcQaUlnl4Uws_UDrbw0REjuHIETPknQv7HfEuFb-qU",
+      "category": "chest_xray",
+      "tone": "routine",
+      "tts_script": "ICT égal 0,48. <break time='300ms'/> Silhouette cardiaque normale. <break time='200ms'/> Pas de foyer de condensation pulmonaire. <break time='300ms'/> Intégrité des culs de sacs costo-diaphragmatiques. <break time='200ms'/> Pas d'anomalie au niveau des différents arcs costaux. <break time='200ms'/> Aspect normal des hiles pulmonaires."
+    },
+    {
+      "id": "16",
+      "original_id": "report_Kl4hVMi1xNQayscnSkVzc3xVrE7s88OdydZqFsf5CMM",
+      "category": "spine_lumbar_complex",
+      "tone": "analytical",
+      "tts_script": "[thinking] Scoliose lombaire à convexité gauche. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Pincement inter-vertébral avec <emphasis level='moderate'>antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à L5, <break time='200ms'/> plus marquée en L4-L5, <break time='200ms'/> sur scoliose lombaire à convexité gauche. <break time='300ms'/> Antélisthésis grade 1 de L4 secondaire."
+    },
+    {
+      "id": "17",
+      "original_id": "report_neoTZG2umCtA9ejjbxnbyqGb3lDtQnpzLDLyGlvGRE0",
+      "category": "fracture_dislocation",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Luxation antéro-interne de l'épaule gauche</emphasis> <break time='300ms'/> avec arrachement du tubercule majeur."
+    },
+    {
+      "id": "18",
+      "original_id": "report_h7clZwVrPUhWnenWeNfD7UCrCIa3B4S4oilBxwnQAzk",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers moyen de la clavicule droite <break time='300ms'/> avec chevauchement."
+    },
+    {
+      "id": "19",
+      "original_id": "report_j8eame8FYgkhgY7ASgsTGdGLDgEmO2SgOSHStiHEKqY",
+      "category": "shoulder",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='300ms'/> Déminéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "20",
+      "original_id": "report_mammographie_136",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> [thinking] <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et asymétriques en densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans le sein gauche. <break time='400ms'/> On retrouve une masse mobile dans la région rétro-aréolaire du sein droit. <break time='300ms'/> Pas d'écoulement mammaire à la pression du mamelon gauche ce jour. <break time='300ms'/> Écoulement mammaire d'aspect laiteux du sein droit. <break time='600ms'/> [breath] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type B de la classification de BIRADS. <break time='500ms'/> À droite : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> [thinking] Asymétrie de densité focalisée, nodulaire rétro-aréolaire, <break time='200ms'/> d'allure bénigne et de taille supra-centimétrique. <break time='200ms'/> Pas de calcification. <break time='200ms'/> Pas de lésion kystique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='500ms'/> À gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Asymétrie de densité focalisée, nodulaire d'allure bénigne <break time='200ms'/> et de taille infra-centimétrique <break time='200ms'/> siégeant dans le quadrant inféro-interne. <break time='200ms'/> Pas de calcification. <break time='200ms'/> Pas de lésion kystique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Forte suspicion de nodule des seins d'allure bénigne <break time='200ms'/> sur seins de type B de la classification de BIRADS, <break time='200ms'/> sans lésion suspecte à priori et classés ACR0. <break time='400ms'/> <emphasis level='moderate'>Faire une échographie mammaire en complément</emphasis>."
+    },
+    {
+      "id": "21",
+      "original_id": "report_aOw5Iu1dR7gITUx4qsYWzVqkf8z1FaHIvXKc4vZS2LA",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L3 à S1. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie lombaire étagée de L3 à S1."
+    },
+    {
+      "id": "22",
+      "original_id": "report_DtJ3ND4F6oWaiJypWwXgGjVYsW9yIHu9cuA5Pe5ewKM",
+      "category": "shoulder_cystic",
+      "tone": "analytical",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='400ms'/> [thinking] Mise en évidence d'une vaste lacune au niveau de la tête humérale <break time='200ms'/> aux contours nets corticalisés <break time='200ms'/> faisant suspecter un kyste osseux. <break time='400ms'/> [breath] <emphasis level='moderate'>Intérêt d'une IRM de l'épaule</emphasis>."
+    },
+    {
+      "id": "23",
+      "original_id": "report_0q_8Gc9auXyxeX6KC7EoX5KJx3z0vJuvCQYVN2s4JTQ",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture vertébrale ni de luxation inter-vertébrale. <break time='300ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='200ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "24",
+      "original_id": "report_W_ZAV1JzCU6-NXUNCOFeHjOueNntJ_rI4ahzEzKFcsE",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers externe de la clavicule droite <break time='300ms'/> avec détachement d'un troisième fragment. <break time='300ms'/> Pas d'atteinte gléno-humérale."
+    },
+    {
+      "id": "25",
+      "original_id": "report_Srf3RiFKG-WvhvWYIUd6Adgpo4tsh0Yh1HDbayVFoRw",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Ostéophytes corporéaux étagés de L3 à L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L3 à L5."
+    },
+    {
+      "id": "26",
+      "original_id": "report_8xyhQG7pJ4Nv9627vd3VKclzGQL2barO_WjRzQ1-bWM",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "27",
+      "original_id": "report_UUzaTaX-mfeuyjXBNOPM3VKtqSsOPY7myZwNBa8Xh54",
+      "category": "spine_cervical",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Discrets ostéophytes à l'étage C5-C6. <break time='300ms'/> Canal cervical de taille normale. <break time='300ms'/> Uncarthrose C5-C6 droit. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Uncodiscarthrose C5-C6."
+    },
+    {
+      "id": "28",
+      "original_id": "report_oERl4m57iy0CZM3sk-hsiXjshAVyen9Y4INX88maUTA",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Ostéophyte en L2. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L1-L2."
+    },
+    {
+      "id": "29",
+      "original_id": "report_5uAjLRWBJhizfGPRPlgbkZsRIH5K-CF1OO0mWl1yEmk",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "30",
+      "original_id": "report_k1S-S-2HekY8y8o-_hNrQvTmYvezomCCJyD7S5_Qn2g",
+      "category": "shoulder_bilateral",
+      "tone": "clinical_neutral",
+      "tts_script": "[thinking] Arthrose acromio-claviculaire bilatérale. <break time='400ms'/> Déminéralisation osseuse bilatérale de l'épaule."
+    },
+    {
+      "id": "31",
+      "original_id": "report_CLhHrHn6gUnH_Y85jwkBxTdLV8l988kP4t8dqX88EOM",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à L5."
+    },
+    {
+      "id": "32",
+      "original_id": "report__gqmZnO9sp0ZzFWzH371jWQBL_R6xD91E-Lx1IfJ7-Q",
+      "category": "pediatric_shoulder",
+      "tone": "routine",
+      "tts_script": "<emphasis level='moderate'>Résultats</emphasis> : <break time='300ms'/> Absence de solution de continuité osseuse au niveau de l'épaule droite. <break time='300ms'/> Intégrité des cartilages de croissance."
+    },
+    {
+      "id": "33",
+      "original_id": "report_-Xk0Z0-QJPbvT_uUCG4o79_GkEU82Kil4DCa5CF_6sU",
+      "category": "spine_lumbar_complex",
+      "tone": "analytical",
+      "tts_script": "[thinking] Déminéralisation osseuse vertébrale. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> Pincement inter-vertébral L4-L5 et L5-S1 <break time='200ms'/> avec ostéocondensation des plateaux vertébraux en regard du disque L5-S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à S1. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à S1, <break time='200ms'/> plus marquée en L5-S1, <break time='200ms'/> sur déminéralisation osseuse vertébrale."
+    },
+    {
+      "id": "34",
+      "original_id": "report_QdNSW-2fddER48iTifK28I1dDa1Aa-exNZjDgJFdMoI",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "35",
+      "original_id": "report_U-9c3qcKg3gWc8Ygl5e8KOXxnuQh3eIcFbSUZUpRhBc",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "36",
+      "original_id": "report_58h1nB0MUCet2VQogEjD6__b9R-PXPedeQPEI9GsEdo",
+      "category": "rib_fracture_doubt",
+      "tone": "analytical",
+      "tts_script": "[thinking] Doute sur une fracture de l'arc moyen de la dixième côte gauche. <break time='400ms'/> <emphasis level='moderate'>À corréler à la clinique</emphasis>."
+    },
+    {
+      "id": "37",
+      "original_id": "report_J40fR_huk0Q3eF9dY0CEmu9L4Arf5Brg7zZ_6wZvd4E",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L3 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1."
+    },
+    {
+      "id": "38",
+      "original_id": "report_a3HJm75MUlMZPnIKp97yES0DzAXNVUua6UOFIaoouCQ",
+      "category": "spine_lumbar_scoliosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement L4-L5. <break time='300ms'/> Présence d'ostéophyte en L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='400ms'/> [thinking] Scoliose lombaire à convexité droite. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L4-L5 sur scoliose lombaire à convexité droite."
+    },
+    {
+      "id": "39",
+      "original_id": "report_mammographie_140",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique, <break time='300ms'/> mais sa grand-mère paternelle a eu un cancer du sein. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type C de la classification de BIRADS. <break time='500ms'/> À droite comme à gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité des mamelons, du revêtement cutané et des prolongements axillaires. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type C de la classification de BIRADS, <break time='200ms'/> sans lésion suspecte à priori et classés ACR0. <break time='400ms'/> <emphasis level='moderate'>Faire une échographie mammaire en complément</emphasis>."
+    },
+    {
+      "id": "40",
+      "original_id": "report_TNJapSXgYEAVZqGYt7-Xx6z8rSWA3N8D5EuKzLUDsVk",
+      "category": "spine_lumbar_complex",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Pincement inter-vertébral aux étages L3-L4 et L4-L5. <break time='400ms'/> [thinking] <emphasis level='moderate'>Antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1, <break time='200ms'/> plus marquée en L3-L4 et L4-L5, <break time='200ms'/> avec antélisthésis grade 1 de L4."
+    },
+    {
+      "id": "41",
+      "original_id": "report_SjwoJkWvUeaBxUsIs4u1xhQoJHhRzPztNmXOEYo8koM",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "42",
+      "original_id": "report_7Gwzxi03TtV5kb9Je22o4A-mrMEiMEJQEWvXLxg2ur4",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L3-L4 et L4-L5. <break time='300ms'/> Ostéophytes corporéaux en L3, L4 et L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L3-L4 et L4-L5."
+    },
+    {
+      "id": "43",
+      "original_id": "report_qZpQYdL_fpYFbUfYbZoh9sR8xjDxgoxwM2XuLNfyl8g",
+      "category": "spine_cervical_trauma",
+      "tone": "concentrated",
+      "tts_script": "[breath] Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect de la ligne des épineuses et des processus articulaires. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Intégrité de l'anneau de Harris. <break time='300ms'/> Pas de diastasis C1-C2. <break time='400ms'/> [thinking] Pincement inter-vertébral C5-C6 et C6-C7. <break time='300ms'/> Ostéophytes corporéaux en C5, C6 et C7. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='400ms'/> Pas de lésion d'allure post traumatique. <break time='300ms'/> Discarthrose cervicale étagée de C5 à C7."
+    },
+    {
+      "id": "44",
+      "original_id": "report_fI-EU-yo5su3F1pbj-nog6lOW1FS-rXsHejaN2MHmVY",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture visible au niveau de l'épaule. <break time='300ms'/> Pas de luxation gléno-humérale ni de disjonction acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "45",
+      "original_id": "report_rst1Vqx2nrf-r0U51UuevbXdLwxDnhKnjmYjXJAk1ww",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture de la phalange distale de l'hallux."
+    },
+    {
+      "id": "46",
+      "original_id": "report_VkAU-MG5AVrE5w5LLb14pF9V2AOsuklqi-YzZSsJm9M",
+      "category": "spine_lumbar_spondylolisthesis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='400ms'/> [thinking] <emphasis level='moderate'>Antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Ostéophytes en L4 et L5. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L4-L5 avec antélisthésis grade 1 de L4."
+    },
+    {
+      "id": "47",
+      "original_id": "report_s9CD2920VYRGv7duFpImuQ-nxavisGmWGVo0gQ9zfe4",
+      "category": "chest_xray",
+      "tone": "routine",
+      "tts_script": "ICT égal 0,5. <break time='300ms'/> Silhouette cardiaque normale. <break time='200ms'/> Pas de foyer de condensation pulmonaire. <break time='300ms'/> Intégrité des culs de sacs costo-diaphragmatiques. <break time='200ms'/> Pas d'anomalie au niveau des différents arcs costaux. <break time='200ms'/> Aspect normal des hiles."
+    },
+    {
+      "id": "48",
+      "original_id": "report_4epGcPG2Wva5Ez2FYaY5qTMVEgwRJCfo6cmHsphqj6s",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à S1. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose étagée de L1 à S1, <break time='200ms'/> plus marquée en L4-L5."
+    },
+    {
+      "id": "49",
+      "original_id": "report_cWaGlBdGxIHIyIPD1Ac8iJ4fc9tRT1tVEfYKQwbo0ys",
+      "category": "dislocation",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Luxation gléno-humérale antéro interne</emphasis>."
+    },
+    {
+      "id": "50",
+      "original_id": "report_wNGJWcvCdosGT6GSX47oSolges6miw7XzDFkocoJ4tQ",
+      "category": "shoulder_pathology",
+      "tone": "analytical",
+      "tts_script": "Pas de luxation gléno-humérale. <break time='400ms'/> [thinking] Ptose de la tête humérale <break time='200ms'/> avec élargissement de l'espace sous acromial. <break time='300ms'/> Pas d'atteinte acromio-claviculaire."
+    },
+    {
+      "id": "51",
+      "original_id": "report_solqNjaVj36BKbEtMOVqdvoI9UsuDd7ansol8kiDGuY",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers moyen de la clavicule <break time='300ms'/> avec un discret chevauchement."
+    },
+    {
+      "id": "52",
+      "original_id": "report_P72AY1MDxd9mic0tcQfr3UCuFeRtCETc6r8nD8r8K14",
+      "category": "spine_cervical_complex",
+      "tone": "analytical",
+      "tts_script": "[thinking] Déminéralisation osseuse vertébrale. <break time='400ms'/> Uncarthrose C3-C4 gauche. <break time='300ms'/> Pincement inter-vertébral C3-C4 et C5-C6. <break time='400ms'/> <emphasis level='moderate'>Tassement cunéiforme de C5</emphasis>. <break time='300ms'/> Ostéophytes corporéaux étagés de C3 à C5. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C3 à C6, <break time='200ms'/> plus marquée en C3-C4 et C5-C6. <break time='300ms'/> Uncarthrose C3-C4 gauche."
+    },
+    {
+      "id": "53",
+      "original_id": "report_9OugJTY_WxUoOJ33vQwAYsol4zHP_dcjAURHmHGKPfA",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du col de l'humérus."
+    },
+    {
+      "id": "54",
+      "original_id": "report_mammographie_148",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type B de la classification de BIRADS. <break time='500ms'/> À droite : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Kyste centimétrique du quadrant supéro-externe. <break time='200ms'/> Pas de calcification. <break time='200ms'/> Pas de lésion nodulaire suspecte. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='500ms'/> À gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type B de la classification de BIRADS, <break time='200ms'/> avec lésion suspecte du sein droit comme sus-décrite. <break time='300ms'/> Le sein droit est classé ACR2 et le sein gauche ACR1."
+    },
+    {
+      "id": "55",
+      "original_id": "report_Frb_V-7-kZmFpmEz39AT8zAkdBEjFEdSciY8SE6_e7w",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "56",
+      "original_id": "report_ZDznt2LdPeY7K9hx7BZgl7477bQGY_cKq3S_Yij9OBw",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "57",
+      "original_id": "report_twxJZxZLjoIeYaS6POsO0tg-kzdE0c71moLW3n6qiec",
+      "category": "spine_lumbar_severe",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> [thinking] Pincement inter-vertébral L3-L4 <break time='200ms'/> avec ostéocondensation des plateaux vertébraux en regard du disque L3-L4. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à S1 <break time='200ms'/> avec ponts ostéophytiques en L1-L2 et L2-L3. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1, <break time='200ms'/> plus marquée en L3-L4."
+    },
+    {
+      "id": "58",
+      "original_id": "report_yP4Wtno91JVex6cd4izFsQ06267flev6YdydB8rjebI",
+      "category": "chest_xray_pathology",
+      "tone": "concerned",
+      "tts_script": "[breath] ICT égal 0,43. <break time='300ms'/> Silhouette cardiaque normale. <break time='400ms'/> [thinking] <emphasis level='moderate'>Multiples opacités pulmonaires bi-apicales confluentes aux contours flous</emphasis>, <break time='200ms'/> prédominant à droite, <break time='300ms'/> fort probablement en rapport avec un syndrome alvéolaire. <break time='300ms'/> Intégrité des culs de sacs costo-diaphragmatiques. <break time='200ms'/> Pas d'anomalie au niveau des différents arcs costaux. <break time='200ms'/> Aspect normal des hiles pulmonaires. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='400ms'/> <emphasis level='strong'>Pneumopathie bilatérale prédominant à droite d'allure infectieuse</emphasis>."
+    },
+    {
+      "id": "59",
+      "original_id": "report_1urL6qQEO-EV2WdsWQ96t8bdd2m8_o8YjN_a0FScaQQ",
+      "category": "chest_xray_cardiomegaly",
+      "tone": "analytical",
+      "tts_script": "[thinking] ICT égal 0,57. <break time='400ms'/> <emphasis level='moderate'>Silhouette cardiaque élargie</emphasis>. <break time='300ms'/> Pas de foyer de condensation pulmonaire. <break time='300ms'/> Intégrité des culs de sacs costo-diaphragmatiques. <break time='200ms'/> Pas d'anomalie au niveau des différents arcs costaux. <break time='200ms'/> Aspect normal des hiles pulmonaires. <break time='500ms'/> [breath] <emphasis level='moderate'>Intérêt d'une TDM thoracique</emphasis>."
+    },
+    {
+      "id": "60",
+      "original_id": "report_6rHb7QWe7u0CS_hHNAPaL8QTX7O0WQXbw7q-IF1-vMg",
+      "category": "spine_cervical",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur, des foramens de conjugaison et des espaces inter-vertébraux. <break time='300ms'/> Ostéophytes corporéaux en C2, C5 et C6. <break time='400ms'/> [thinking] Calcification du ligament longitudinal antérieur <break time='200ms'/> en regard des disques C2-C3, C4-C5, C5-C6 et C6-C7. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose C2-C3, C5-C6 et C6-C7."
+    },
+    {
+      "id": "61",
+      "original_id": "report_DEQP_baq2oynASIFKT1Huj1EgwK_wTZT0bRb5n6Mr88",
+      "category": "pneumothorax",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Pneumothorax gauche de grande abondance</emphasis> <break time='400ms'/> avec effet de masse sur le médiastin refoulé vers la droite."
+    },
+    {
+      "id": "62",
+      "original_id": "report_43OifUVMfXwbq397L6I5RIU5knG-m4o0ifC1d4YWtSw",
+      "category": "spine_cervical",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C5-C6. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie C5-C6. <break time='300ms'/> Intégrité des foramens de conjugaison."
+    },
+    {
+      "id": "63",
+      "original_id": "report_FUl5Ejjyyic8q1-5eOGtVAvYcgU3elaZDRIGdn5Y41g",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L2-L3. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à L4. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à L4, <break time='200ms'/> plus marquée en L2-L3."
+    },
+    {
+      "id": "64",
+      "original_id": "report_0Jn2RPfGj_STL7GdrNX7W1-C4-p3rPUjgqZqDD5HgF0",
+      "category": "spine_cervical_stenosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C6-C7. <break time='400ms'/> [thinking] <emphasis level='moderate'>Canal cervical étroit</emphasis>. <break time='300ms'/> Ostéophytes corporéaux en C6 et C7. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose C6-C7 sur canal cervical étroit."
+    },
+    {
+      "id": "65",
+      "original_id": "report_aZEuHAFwsjr_fLIij4jmMyV6Zpzie2rZgzuviHil2Ls",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "66",
+      "original_id": "report_HjyDWIu3tNScSE6b2tol4l9kpaKdNi3vRtkcmSoTs-Y",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "67",
+      "original_id": "report_EBa3rq5QV16AywRWWZHLOwHlabT6j65WgEBLCWzSyvk",
+      "category": "spine_lumbar_facet",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='400ms'/> [thinking] <emphasis level='moderate'>Antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Pincement inter-vertébral L4-L5 et L5-S1. <break time='300ms'/> Ostéophytes corporéaux en L5 et S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='300ms'/> Zygarthrose L4-L5 et L5-S1. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose et zygarthrose lombaires L4-L5 et L5-S1 <break time='200ms'/> avec antélisthésis grade 1 de L4."
+    },
+    {
+      "id": "68",
+      "original_id": "report_L_qfyRdkqDdN6FEoXXmqu4vBJkoPRpjAzteTHxTGFuk",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5 et L3-L4. <break time='300ms'/> Ostéophytes corporéaux en L3, L4 et L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L3-L4 et L4-L5."
+    },
+    {
+      "id": "69",
+      "original_id": "report_v3ISFClhoY184ZRTflM7vplNiL330txoFAWnH6Co-kQ",
+      "category": "spine_lumbar_variant",
+      "tone": "analytical",
+      "tts_script": "[thinking] On retrouve 6 vertèbres lombaires <break time='300ms'/> en rapport avec une anomalie transitionnelle de la charnière lombo-sacrée <break time='200ms'/> à type de lombalisation de S1. <break time='500ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement L4-L5. <break time='300ms'/> Ostéophytes corporéaux étagés de L4 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L4 à S1."
+    },
+    {
+      "id": "70",
+      "original_id": "report_RwmXTjmMGaaRxyJzUcVCUmMoIpS2ftvvD7IIcYpXJGo",
+      "category": "spine_lumbar_complex",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral. <break time='400ms'/> [thinking] Pincement inter-vertébral étagé de L3 à S1, <break time='200ms'/> plus marqué en L4-L5 et L5-S1. <break time='400ms'/> <emphasis level='moderate'>Antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Ostéophytes corporéaux étagés de L3 à S1. <break time='300ms'/> Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L3 à S1, <break time='200ms'/> plus marquée en L4-L5 et L5-S1, <break time='200ms'/> avec antélisthésis grade 1 de L4."
+    },
+    {
+      "id": "71",
+      "original_id": "report_pWBb-wu-lfQ2U-V-ZQ6F_OgMUi_MXLYz7nOBKYB6gqo",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "72",
+      "original_id": "report_cJygPdUEy_e9uF130_WYsc18bKk83uyr4DNCnqDus6k",
+      "category": "shoulder_fracture_doubt",
+      "tone": "analytical",
+      "tts_script": "[thinking] Doute sur une fracture du tubercule majeur. <break time='400ms'/> <emphasis level='moderate'>À corréler à la clinique</emphasis>. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires."
+    },
+    {
+      "id": "73",
+      "original_id": "report_fXz_V3e-ywhjOJbGkstaDhv8gihtb2dSGaV39EPRM88",
+      "category": "spine_lumbar_kyphosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='400ms'/> [thinking] <emphasis level='moderate'>Inversion de la lordose lombaire avec une cyphose lombaire paradoxale</emphasis>. <break time='400ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='300ms'/> Scoliose lombaire à convexité droite. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à L5 <break time='200ms'/> avec inversion de la lordose lombaire."
+    },
+    {
+      "id": "74",
+      "original_id": "report_QRCrJsE2DkwIhWysXXohnxa9yYJOHZ2Fw0__NIb39B0",
+      "category": "spine_lumbar_osteopenia",
+      "tone": "clinical_neutral",
+      "tts_script": "[thinking] Déminéralisation osseuse vertébrale. <break time='400ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L2 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à L5. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1 <break time='200ms'/> sur déminéralisation osseuse vertébrale."
+    },
+    {
+      "id": "75",
+      "original_id": "report_Clk3czxqf4IGQk5MFoQAbVZHfrsVXFsWgtdUaJG92vM",
+      "category": "spine_cervical",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C3-C4. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie C3-C4."
+    },
+    {
+      "id": "76",
+      "original_id": "report_XOvOVPSh84htql4xWsuvxhaDtPUoUj-mXNbZprjTzXA",
+      "category": "thorax_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture costale. <break time='300ms'/> Pas de foyer de pneumopathie évolutive."
+    },
+    {
+      "id": "77",
+      "original_id": "report_CyXsanpItr9GdoksVA5Rl7me3jhGglkjELVrMdG3y3Y",
+      "category": "spine_lumbar_spondylolisthesis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> [thinking] <emphasis level='moderate'>Antélisthésis grade 1 de L4</emphasis>. <break time='300ms'/> Ostéophytes corporéaux en L4, L5 et L2. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L4-L5 avec antélisthésis grade 1 de L4. <break time='300ms'/> Discarthrose L2-L3."
+    },
+    {
+      "id": "78",
+      "original_id": "report_25hGADGBJ-9JShEtUkve_-tQuPM5YXMrpvIbGUUeMnw",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "79",
+      "original_id": "report_fdmMA3E8aDoDr0RTFTxNu6RlH9SrwNEyif3Wix0flK0",
+      "category": "shoulder_arthritis",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de fracture au niveau de l'épaule. <break time='300ms'/> Pas de luxation gléno-humérale ni de disjonction acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule. <break time='400ms'/> [thinking] Arthrose acromio-claviculaire."
+    },
+    {
+      "id": "80",
+      "original_id": "report_kR-6UhzsPBjFscqHQP_B34dPsbqtd0jI6ZINZA8Ien4",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture de la tête de la phalange distale de l'hallux."
+    },
+    {
+      "id": "81",
+      "original_id": "report_YhZmC2cdAaSfCK4AR390OfzcljvmIssDpG-VC8xRILI",
+      "category": "shoulder_post_reduction",
+      "tone": "clinical_neutral",
+      "tts_script": "[breath] Réduction satisfaisante de la luxation gléno-humérale. <break time='400ms'/> Pas d'atteinte acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "82",
+      "original_id": "report_mammographie_129",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type B de la classification de BIRADS."
+    },
+    {
+      "id": "83",
+      "original_id": "report_p0xRtDobhoOQRFwJgg2ujPh3qNV7ZeKe4EjfhAO_StM",
+      "category": "shoulder_dislocation",
+      "tone": "concerned",
+      "tts_script": "[breath] Disjonction acromio-claviculaire. <break time='400ms'/> Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "84",
+      "original_id": "report__Y3tcI0v4TGqvFnJi3RR6EIgXZAAqPV_2okj-O_tHpA",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L5-S1. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie L5-S1."
+    },
+    {
+      "id": "85",
+      "original_id": "report_mammographie_149",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale, médio-latérale-oblique et médio-latérale droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> [thinking] La palpation ne retrouve pas de masse dans les seins <break time='200ms'/> mais une petite boule dans le prolongement axillaire du sein gauche. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type A de la classification de BIRADS. <break time='500ms'/> À droite comme à gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité des mamelons, du revêtement cutané et des prolongements axillaires. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type A de la classification de BIRADS, <break time='200ms'/> normaux et classés ACR1."
+    },
+    {
+      "id": "86",
+      "original_id": "report_xWHbgFG76tI9FZyBvSQhhuwBB_dckft89LGw1i-CPAk",
+      "category": "spine_lumbar_stiffness",
+      "tone": "analytical",
+      "tts_script": "[thinking] Raideur rachidienne. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='400ms'/> Pincement inter-vertébral étagé de L2 à S1 <break time='200ms'/> avec ostéocondensation des plateaux vertébraux <break time='200ms'/> en regard des disques étagés de L3 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L1 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1 <break time='200ms'/> sur raideur rachidienne."
+    },
+    {
+      "id": "87",
+      "original_id": "report_-Vp1H5PA4aRWlyUun4-_BF7ulOIaQts33AyLx4u99ZY",
+      "category": "spine_lumbar_scoliosis",
+      "tone": "analytical",
+      "tts_script": "[thinking] Scoliose lombaire à convexité droite. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5 <break time='200ms'/> avec ostéocondensation des plateaux vertébraux en regard du disque L4-L5. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à S1. <break time='300ms'/> Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à S1, <break time='200ms'/> plus marquée en L4-L5, <break time='200ms'/> sur scoliose lombaire à convexité droite."
+    },
+    {
+      "id": "88",
+      "original_id": "report_AvbwWOhHa-4Sc3507QwvwCEl402LfskBhScNvStIwbg",
+      "category": "shoulder_dislocation",
+      "tone": "concerned",
+      "tts_script": "Pas de fracture au niveau de l'épaule. <break time='400ms'/> [breath] <emphasis level='moderate'>Disjonction acromio-claviculaire</emphasis>. <break time='300ms'/> Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "89",
+      "original_id": "report_eVE3AGKRM5eBJgIpsFJnwrPOve5Z-M1jIePdwDp4eJs",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "90",
+      "original_id": "report_moWjRGJ4LLaA9cEn-Z1047-smB4KfTqq4sVnw0-aUW0",
+      "category": "fracture_complex",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Fracture de la tête humérale</emphasis> <break time='300ms'/> avec détachement de fragments osseux. <break time='400ms'/> Pas de luxation gléno-humérale. <break time='300ms'/> Pas d'atteinte acromio-claviculaire."
+    },
+    {
+      "id": "91",
+      "original_id": "report_mammographie_155",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale, médio-latérale-oblique et médio-latérale droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type A de la classification de BIRADS. <break time='500ms'/> À droite comme à gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité des mamelons, du revêtement cutané et des prolongements axillaires. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type A de la classification de BIRADS, <break time='200ms'/> normaux et classés ACR1."
+    },
+    {
+      "id": "92",
+      "original_id": "report_LTGcgYQHn3jodezHEcaL4U875_D9lw5uyVj80wJDS-Q",
+      "category": "spine_lumbar_scoliosis",
+      "tone": "analytical",
+      "tts_script": "[thinking] Scoliose lombaire à convexité droite. <break time='400ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L3 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à S1. <break time='300ms'/> Vide discal étagé de L3 à S1. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L1 à S1 <break time='200ms'/> sur scoliose lombaire à convexité gauche."
+    },
+    {
+      "id": "93",
+      "original_id": "report_C8tMrM45AhgDDpFYtzdg08gycyjrdliGOmXhFBw0Ro0",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "94",
+      "original_id": "report_FMI-Pqebom50C1RwhONlNHxBdAMGqQRfhzfvfocA-iA",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "95",
+      "original_id": "report__eNAbsIM5DQrdwGIlLY5KIcDJMzLDjhaGxxrSVJ4LnM",
+      "category": "shoulder_soft_tissue",
+      "tone": "analytical",
+      "tts_script": "[thinking] Opacité ovalaire bien limitée de densité hydrique <break time='200ms'/> au niveau des parties molles. <break time='400ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule. <break time='500ms'/> [breath] <emphasis level='moderate'>Intérêt d'une échographie de l'épaule en complément</emphasis>."
+    },
+    {
+      "id": "96",
+      "original_id": "report_FAJPOTJfjWogRM1gkBFAIpOd5Ag3u6OdxeHilVLodKw",
+      "category": "spine_lumbar_scoliosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L3 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de T11 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='400ms'/> [thinking] Scoliose lombaire à convexité gauche. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de T11 à S1."
+    },
+    {
+      "id": "97",
+      "original_id": "report_uU9gmaeXw_oVVi7Bwo0eJ2Cu_pppkKU-FQ1nc38p470",
+      "category": "ct_thorax_complex",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Acquisition sans puis après injection intraveineuse de produit de contraste iodé. <break time='600ms'/> <emphasis level='moderate'>Résultat</emphasis> : <break time='500ms'/> [thinking] Étage thoracique : <break time='300ms'/> Absence d'anomalie de la trachée ou des bronches proximales. <break time='400ms'/> <emphasis level='moderate'>Présence d'un comblement diffus du champ pulmonaire droit</emphasis> <break time='200ms'/> avec bronchogramme aérique intra lésionnel. <break time='400ms'/> Présence d'un épanchement pleural bilatéral, <break time='200ms'/> droit de grand abondance, gauche de minime abondance, <break time='300ms'/> avec épaississement pleural circonférentiel irrégulier pleural droit <break time='200ms'/> responsable d'une atélectasie pulmonaire en regard <break time='200ms'/> et d'une déviation du médiastin vers la gauche. <break time='400ms'/> Absence d'adénomégalie sus-diaphragmatique. <break time='300ms'/> Cœur de taille normale. Absence d'épanchement péricardique. <break time='200ms'/> Grands vaisseaux sans particularité, sous réserve de la technique. <break time='600ms'/> Étage abdomino-pelvien : <break time='400ms'/> Foie de taille et de morphologie normales, sans lésion focale suspecte. <break time='300ms'/> [thinking] Présence d'une formation de densité liquidienne du segment 4 <break time='200ms'/> non rehaussée après injection du produit de contraste. <break time='300ms'/> Perméabilité mésent érico-porte et hépático-cave. <break time='200ms'/> Absence de dilatation des voies biliaires. <break time='300ms'/> Vésicule biliaire sans lithiase dense. <break time='300ms'/> Absence d'anomalie significative du pancréas, de la rate, des surrénales, des reins, <break time='200ms'/> des voies urinaires ou de la vessie. <break time='300ms'/> Kyste rénal polaire supérieur gauche infracentimétrique simple. <break time='300ms'/> Absence d'anomalie de calibre ou de paroi du tube digestif, <break time='200ms'/> sous réserve de l'absence de préparation digestive. <break time='400ms'/> Volumineuse hernie ombilicale à contenu mixte, <break time='200ms'/> graisse et anses, non étranglée, <break time='200ms'/> avec un défect de 58 millimètres. <break time='300ms'/> Absence d'épanchement péritonéal ou de collection intra-abdominale. <break time='200ms'/> Absence de pneumopéritoine. <break time='300ms'/> Absence d'adénomégalie sous-diaphragmatique. <break time='300ms'/> Absence d'anomalie significative de l'aorte et de ses principaux troncs, <break time='200ms'/> sous réserve d'un examen non dédié. <break time='200ms'/> Rétropéritoine sans particularité. <break time='200ms'/> Absence d'effet de masse pelvien. <break time='300ms'/> Analyse musculosquelettique : Absence de lésion osseuse suspecte. <break time='700ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> <emphasis level='strong'>Aspect TDM d'un épaississement pleural suspect droit</emphasis> <break time='200ms'/> avec pleurésie droite de grande abondance. <break time='300ms'/> Condensation pulmonaire diffuse droite. <break time='300ms'/> Absence de lésion abdomino-pelvienne d'allure suspecte."
+    },
+    {
+      "id": "98",
+      "original_id": "report_NBBBJxXXTh3U-BloS4GiHTtYVIwXhOrJ20XdYnYXqAY",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "99",
+      "original_id": "report_UyJ3-VF4tItHVkvjf6QWoDVqS-TkBfW0Kxc9DcZGlD0",
+      "category": "thorax_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture au niveau des différents arcs costaux. <break time='300ms'/> Pas de pneumothorax. <break time='300ms'/> Pas de fracture des clavicules."
+    },
+    {
+      "id": "100",
+      "original_id": "report_hYOKhE92YtQmdQN5CWuOtOZzmde-vWY_gsUj-rEYTZ0",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "101",
+      "original_id": "report_RLb4EPeQxj1k5zoofKj3SgWAzNNX_ZVvPnNyP77FXNE",
+      "category": "spine_lumbar_kyphosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L2 à L5. <break time='300ms'/> Ostéophytes corporéaux étagés de L3 à S1. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='400ms'/> Inversion de la lordose lombaire avec une cyphose lombaire paradoxale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à S1 <break time='200ms'/> avec inversion de la lordose lombaire."
+    },
+    {
+      "id": "102",
+      "original_id": "report_nRNA5YZl2Q3rrkWWXYTtV_DgPOf28teUNL23IGysJ4s",
+      "category": "shoulder",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='300ms'/> Déminéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "103",
+      "original_id": "report_QXxMAZ1UyFLweGvZxFP1Km-w3JjFuqREwuexKchdLdU",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "[breath] Discarthrose L3-L4."
+    },
+    {
+      "id": "104",
+      "original_id": "report_wOTshdLp2DjSnZlWQ8e31ABQQL4Th_TuHdHPCOeolp0",
+      "category": "knee_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture ni de luxation du genou. <break time='300ms'/> Respect de la minéralisation osseuse du genou. <break time='300ms'/> Respect de l'interligne fémoro-tibial <break time='200ms'/> de même que les surfaces articulaires en regard. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Intégrité des parties molles péri-articulaires."
+    },
+    {
+      "id": "105",
+      "original_id": "report_883DnaoG7JMvagtWymk-_V2YtKJ7Yy5ADA0aviaQB_8",
+      "category": "spine_cervical_stiffness",
+      "tone": "analytical",
+      "tts_script": "[thinking] Raideur cervicale avec perte de la lordose cervicale. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C5-C6. <break time='300ms'/> Ostéophytes en C5 et C6. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose C5-C6 sur raideur cervicale."
+    },
+    {
+      "id": "106",
+      "original_id": "report_Y8bKZcL78ICsat9Br20mA7p69QQNGFaHgfIY8_N6MVI",
+      "category": "spine_cervical",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C6-C7. <break time='300ms'/> Ostéophytes corporéaux étagés de C4 à C6. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C4 à C7, <break time='200ms'/> plus marquée en C6-C7."
+    },
+    {
+      "id": "107",
+      "original_id": "report_lrdIGdFNiYKSu-a9rHUyllclumOyYeyN1XgQU8Znyjw",
+      "category": "spine_lumbar_osteopenia",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L2 à S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à L5. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à S1 <break time='200ms'/> sur déminéralisation osseuse vertébrale."
+    },
+    {
+      "id": "108",
+      "original_id": "report_MfR4NIEHiPsN8Hyygft2sSLFTAawf7dGCAEk1yILPAo",
+      "category": "spine_cervical_stenosis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral C6-C7. <break time='300ms'/> Ostéophytes corporéaux étagés de C5 à C7. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='400ms'/> <emphasis level='moderate'>Canal cervical étroit</emphasis>. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C4 à C7, <break time='200ms'/> plus marquée en C6-C7, <break time='200ms'/> sur canal cervical étroit."
+    },
+    {
+      "id": "109",
+      "original_id": "report_YRPt4QOrZUTm6sVf7vVWjtVuvw7wbAEbJyqqNmIP4Sc",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci et des foramens de conjugaison. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "110",
+      "original_id": "report_Kt2oI9xECsdE0-4hQLXvMtTEr9mNyQXqcIY3U6cmCvc",
+      "category": "spine_lumbar_spondylolisthesis",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='400ms'/> [thinking] <emphasis level='strong'>Antélisthésis grade 2 de L5</emphasis>. <break time='400ms'/> Pincement inter-vertébral L4-L5 et L5-S1. <break time='300ms'/> Ostéophytes corporéaux en L5 et S1. <break time='300ms'/> Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L4-L5 et L5-S1 <break time='200ms'/> avec antélisthésis grade 2 de L5."
+    },
+    {
+      "id": "111",
+      "original_id": "report_TNy7Z2CZXOi_yptA530ZJplGEARTl1yGktATxOvqVFM",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='300ms'/> Ostéophyte L4 et L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire L3-L4 et L4-L5, <break time='200ms'/> plus marquée en L4-L5."
+    },
+    {
+      "id": "112",
+      "original_id": "report_Q-IU3e4-m1FOHCsPSUZfffYVBVC-CPWq8acxMI2H8Rs",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "113",
+      "original_id": "report_TOJQQjoDyEeZjkZfWHz_kXkLoQzJWI0kw3SEqIvR-aY",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "114",
+      "original_id": "report_e7EbkqAyinYkmYg5sDRy7Tu7h18edwLghy_WzfN--X4",
+      "category": "spine_osteopenia",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "115",
+      "original_id": "report_-O1r169VFVEEU1dE_V7k796-gHSrejx7vP31B3xjwGQ",
+      "category": "ct_brain",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Acquisition sans injection intraveineuse du produit de contraste. <break time='600ms'/> <emphasis level='moderate'>Résultat</emphasis> : <break time='400ms'/> Absence de saignement intracrânien récent. <break time='300ms'/> Absence d'anomalie de densité du parenchyme cérébral. <break time='300ms'/> Le système ventriculaire est symétrique et de taille normale. <break time='300ms'/> Absence d'anomalie des espaces liquidiens péri-cérébraux. <break time='400ms'/> Absence d'effet de masse intracrânien, <break time='200ms'/> notamment pas de déviation des structures de la ligne médiane ni d'engagement. <break time='400ms'/> [thinking] Comblement total du sinus maxillaire gauche <break time='200ms'/> et partiel du sinus maxillaire droit. <break time='300ms'/> Absence d'anomalie significative des structures osseuses, <break time='200ms'/> notamment pas de fracture. <break time='200ms'/> Parties molles sans particularité. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='300ms'/> Absence de saignement intracrânien. <break time='200ms'/> Absence de fracture du crâne."
+    },
+    {
+      "id": "116",
+      "original_id": "report_mammographie_127",
+      "category": "mammography_high_risk",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='400ms'/> [thinking] Il y a des antécédents du côté de la filiation maternelle et paternelle de la patiente, <break time='300ms'/> notamment sa tante paternelle et sa tante maternelle <break time='200ms'/> ont souffert du cancer du col de l'utérus. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins asymétriques en volume et en densité avec un sein droit volumineux. <break time='300ms'/> Seins sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans le sein gauche. <break time='400ms'/> [thinking] On retrouve une grosse masse molle mobile <break time='200ms'/> occupant presque tous les quadrants du sein droit. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins asymétriques en volume et en densité avec un sein droit volumineux. <break time='200ms'/> Ils sont de type C de la classification de BIRADS. <break time='500ms'/> [breath] À droite : <break time='400ms'/> <emphasis level='strong'>Volumineuse asymétrie de densité focalisée, de contours irréguliers</emphasis>, <break time='200ms'/> siégeant sur tous les quadrants du sein, <break time='200ms'/> fortement suspecte. <break time='300ms'/> Pas de calcification. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='500ms'/> À gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='700ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type C de la classification de BIRADS, <break time='200ms'/> avec volumineuse lésion suspecte à explorer. <break time='300ms'/> Les seins sont classés ACR0. <break time='400ms'/> <emphasis level='strong'>Faire une échographie mammaire en complément</emphasis>."
+    },
+    {
+      "id": "117",
+      "original_id": "report_GkxZ8fczykCkgCCDNkQ3iSXA12lHZmzfBzhagp_OdVg",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Discret ostéophyte corporéal antérieur en L3. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='400ms'/> [thinking] Volumineuse calcification pelvienne droite. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L2-L3."
+    },
+    {
+      "id": "118",
+      "original_id": "report_06n36spl17eUdm5WQVNB5B6BQwdnW4b6ntSIxWlB8Gk",
+      "category": "shoulder_bilateral_pediatric",
+      "tone": "routine",
+      "tts_script": "À droite comme à gauche : <break time='300ms'/> Pas d'atteinte acromio-claviculaire ni gléno-humérale. <break time='300ms'/> Intégrité des cartilages de croissance. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule. <break time='200ms'/> Intégrité des parties molles."
+    },
+    {
+      "id": "119",
+      "original_id": "report_-bfbLUe-VSH9v_P6UCWkscYTdUlJKAkpaXU7z-TK2aw",
+      "category": "spine_cervical_trauma",
+      "tone": "concentrated",
+      "tts_script": "[breath] Pas de fracture vertébrale ni de luxation inter-vertébrale. <break time='300ms'/> Respect de la ligne des épineuses. <break time='300ms'/> Pas de rupture de l'anneau de Harris. <break time='300ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "120",
+      "original_id": "report_V67AdLVnpX8i9WEsE6BY4-InmLGWhDqTeYIFQx_eZM4",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "121",
+      "original_id": "report_CfcGA_MYB8L1r5SsyerahlNPN72EUbe6HFy-hQzTK5g",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect de la minéralisation osseuse vertébrale. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L3-L4. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie L3-L4."
+    },
+    {
+      "id": "122",
+      "original_id": "report_ZoEzpCXgVvZD6X1hz8Y8DOfplY3OC8-TjutliV5_OcU",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers moyen de la clavicule <break time='300ms'/> avec chevauchement."
+    },
+    {
+      "id": "123",
+      "original_id": "report_fUzd85Pcjk4bvojgWmcyanwmX7oCEN9iIAbZbeWAIog",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement L2-L3. <break time='300ms'/> Ostéophytes corporéaux étagés de L2 à L4. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à L4, <break time='200ms'/> plus marquée en L2-L3."
+    },
+    {
+      "id": "124",
+      "original_id": "report_eZAzXlrMQGkvyAcD1kSY0du63w-BCgoqtQ-OiLG6ioU",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "125",
+      "original_id": "report_ofajtlzpQkYg3ceWdPwId8dQ2RerMf5nhXeM2NT3YcA",
+      "category": "spine_lumbar_scoliosis",
+      "tone": "analytical",
+      "tts_script": "[thinking] Scoliose lombaire à convexité droite. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5 et L5-S1. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie L4-L5 et L5-S1 <break time='200ms'/> sur scoliose lombaire à convexité droite."
+    },
+    {
+      "id": "126",
+      "original_id": "report_mammographie_161",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type A de la classification de BIRADS. <break time='500ms'/> À droite : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Micro-calcification du quadrant supéro-externe. <break time='200ms'/> Pas de lésion nodulaire. <break time='200ms'/> Pas de lésion kystique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='500ms'/> À gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type A de la classification de BIRADS, <break time='200ms'/> avec à droite une micro-calcification du quadrant supéro-externe. <break time='300ms'/> Le sein droit est classé ACR2 et le sein gauche ACR1."
+    },
+    {
+      "id": "127",
+      "original_id": "report_oN95HlOqsgErdyQ1QTB2I-PE8KMDt_gSK_TGzlsXM6w",
+      "category": "pelvis_knee",
+      "tone": "analytical",
+      "tts_script": "[thinking] <emphasis level='moderate'>Bassin</emphasis> : <break time='300ms'/> Respect de la minéralisation osseuse du bassin. <break time='300ms'/> Intégrité des têtes fémorales. <break time='300ms'/> Pas d'atteinte acétabulaire bilatérale. <break time='300ms'/> Respect de l'interligne coxo-fémorale bilatérale. <break time='200ms'/> Intégrité des cadres obturateurs. <break time='200ms'/> Pas d'atteinte de la symphyse pubienne. <break time='600ms'/> <emphasis level='moderate'>Genou</emphasis> : <break time='400ms'/> <emphasis level='moderate'>Gonarthrose pancompartimentale</emphasis> <break time='200ms'/> prédominant en fémoro-tibial interne. <break time='300ms'/> Épanchement liquidien intra-articulaire. <break time='300ms'/> Enthésopathie du tendon du quadriceps."
+    },
+    {
+      "id": "128",
+      "original_id": "report__b4F3tJJXdJ4Abc4C_FUJkrKZWQ9kHMvjtqklWXQXrg",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='300ms'/> Discrets ostéophytes à l'étage L4-L5. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire L4-L5."
+    },
+    {
+      "id": "129",
+      "original_id": "report_diNXo4wYr5sh4XWiz_qiCgn8e8QNqtTtDI6rOZBdhps",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers moyen de la clavicule <break time='300ms'/> avec détachement de quelques fragments."
+    },
+    {
+      "id": "130",
+      "original_id": "report_LxbmrrVRwIASQa_lfBOosw7VZ3SCh6LjtDErc2fOcPs",
+      "category": "thorax_normal",
+      "tone": "routine",
+      "tts_script": "Pas d'anomalie de forme, de structure ou de densité <break time='200ms'/> au niveau des différents arcs costaux. <break time='300ms'/> Pas de foyer de pleuro-pneumopathie évolutive."
+    },
+    {
+      "id": "131",
+      "original_id": "report_YRO773Z7xHTlNVo9jEzqBzL9LsmF4s1BhUFgJPOliKI",
+      "category": "spine_cervical",
+      "tone": "analytical",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de C3 à C6. <break time='300ms'/> Ostéophytes corporéaux antérieurs étagés de C3 à C6. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci et des foramens de conjugaison. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose cervicale étagée de C3 à C6. <break time='300ms'/> Intégrité des foramens de conjugaison."
+    },
+    {
+      "id": "132",
+      "original_id": "report_tmqb8saREeyEb6RgFKx63Zb96FcasmffdZUmBYuTZNY",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture au niveau de l'épaule. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "133",
+      "original_id": "report_mammographie_138",
+      "category": "mammography_family_history",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='400ms'/> [thinking] Il y a quelques antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='300ms'/> notamment sa grand-mère, sa cousine paternelle et sa petite sœur <break time='200ms'/> qui ont souffert de cancer du sein. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type B de la classification de BIRADS. <break time='500ms'/> À droite comme à gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité des mamelons, du revêtement cutané et des prolongements axillaires. <break time='600ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Seins de type B de la classification de BIRADS, <break time='200ms'/> normaux et classés ACR1."
+    },
+    {
+      "id": "134",
+      "original_id": "report_mammographie_121",
+      "category": "mammography",
+      "tone": "concentrated",
+      "tts_script": "[breath] <emphasis level='moderate'>Antécédents</emphasis> : <break time='300ms'/> Il n'y a pas d'antécédents particuliers du côté de la filiation maternelle de la patiente, <break time='200ms'/> notamment pas d'antécédent de cancer mammaire ou gynécologique. <break time='600ms'/> <emphasis level='moderate'>Technique</emphasis> : <break time='300ms'/> Incidences cranio-caudale et médio-latérale-oblique droite et gauche. <break time='600ms'/> <emphasis level='moderate'>Examen physique</emphasis> : <break time='400ms'/> L'examen physique retrouve : <break time='300ms'/> Seins symétriques sans anomalie de volume et de densité. <break time='300ms'/> Seins symétriques sans anomalie de coloration cutanée. <break time='300ms'/> La palpation ne retrouve pas de masse dans les seins. <break time='300ms'/> Pas d'écoulement mammaire à la pression des mamelons ce jour. <break time='600ms'/> [thinking] <emphasis level='moderate'>Résultats</emphasis> : <break time='400ms'/> Seins symétriques en volume et en densité. <break time='200ms'/> Ils sont de type A de la classification de BIRADS. <break time='500ms'/> À droite : <break time='300ms'/> Micro-calcification vasculaire rétro-aréolaire. <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire ou kystique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='500ms'/> À gauche : <break time='300ms'/> Pas de distorsion architecturale. <break time='300ms'/> Pas d'asymétrie de densité focalisée, nodulaire ou stellaire suspecte <break time='200ms'/> d'allure tissulaire, kystique ou calcique. <break time='200ms'/> Intégrité du mamelon, du revêtement cutané et du prolongement axillaire. <break time='700ms'/> [breath] <emphasis level='strong'>Conclusion</emphasis> : <break time='400ms'/> Micro-calcification vasculaire bénigne à droite comme sus-décrite <break time='200ms'/> sur seins de type A de la classification de BIRADS. <break time='300ms'/> Sein droit classé ACR2 et sein gauche ACR1."
+    },
+    {
+      "id": "135",
+      "original_id": "report_7uYmYAqRdJjtpz1BbynPvNfUD0ryAWXqRtIGJM4rLe8",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral étagé de L2 à S1, <break time='200ms'/> plus marqué en L4-L5 et L5-S1. <break time='300ms'/> Ostéophytes corporéaux étagés de L3 à S1. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de L2 à S1, <break time='200ms'/> plus marquée en L4-L5 et L5-S1."
+    },
+    {
+      "id": "136",
+      "original_id": "report_ohuSPicvcj6wDc064GnEXhdkQW4Z9vJCTq5ItHnkyqM",
+      "category": "fracture_complex",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Fracture de la scapula</emphasis>. <break time='400ms'/> Disjonction acromio-claviculaire."
+    },
+    {
+      "id": "137",
+      "original_id": "report_F2waR2rhCiLWlFMTWDKTTW8gao5RY9wJG2-aF8ovCv0",
+      "category": "spine_cervical_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> Canal cervical de taille normale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "138",
+      "original_id": "report_Hciy9mOCW3c9hQCzshDT5pxl5ZgeZ87adV6VpAm8TPc",
+      "category": "fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] Fracture du tiers moyen de la clavicule <break time='300ms'/> avec détachement d'un troisième fragment."
+    },
+    {
+      "id": "139",
+      "original_id": "report_vQliJ3qxN2Qk5knUNcolZNinT24OmrlOrTDP5_dlxdE",
+      "category": "fracture_complex",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Fracture du tiers supérieur de l'humérus</emphasis> <break time='300ms'/> avec chevauchement et détachement d'un troisième fragment."
+    },
+    {
+      "id": "140",
+      "original_id": "report_U3fjfSYQ5YuxfbU_utlKPy0EjiA1AjBEDI2itIRyFyU",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tendinopathie calcifiante de la coiffe des rotateurs. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "141",
+      "original_id": "report_VY1LX7rwoflSAl0wTFZYAwqyFvwFibqAHeQEbzoqVKs",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Ostéophytes corporéaux en T12, L1 et L2. <break time='300ms'/> Ostéocondensation des plateaux vertébraux en regard du disque L1-L2. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose lombaire étagée de T12 à L2."
+    },
+    {
+      "id": "142",
+      "original_id": "report_8BAs0TZXB8Ws9zn7KBV93ppcUo5CuywO_FzNxSfxXNs",
+      "category": "spine_lumbar",
+      "tone": "clinical_neutral",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='300ms'/> Ostéophyte en L3 et L4. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='500ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discarthrose L2-L3 et L3-L4 débutante."
+    },
+    {
+      "id": "143",
+      "original_id": "report_5l4qa9ZXxUjtJhjX6aJlYVX4Uyk84V6OxXk4OcE-eBw",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "144",
+      "original_id": "report_KXz0PIoW4XbD-b2l7CESbvRebk3l57NMa5-hcUrl6Co",
+      "category": "spine_fracture",
+      "tone": "concerned",
+      "tts_script": "[breath] <emphasis level='strong'>Tassement antérieur de T12</emphasis> <break time='300ms'/> avec un arrachement d'un fragment osseux <break time='200ms'/> au niveau du versant antérieur du plateau vertébral inférieur de T12. <break time='400ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='200ms'/> Pas d'ostéophyte. <break time='300ms'/> [thinking] Déminéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie L4-L5. <break time='400ms'/> Tassement antérieur de T12 avec arrachement d'un fragment osseux <break time='200ms'/> au niveau du versant antérieur du plateau vertébral inférieur de T12 <break time='200ms'/> sur déminéralisation osseuse vertébrale."
+    },
+    {
+      "id": "145",
+      "original_id": "report_2TnSIhg-drDPZ2eu54sk6Rj36XSSUxm_NqpZKI7BYyg",
+      "category": "spine_cervical_trauma",
+      "tone": "concentrated",
+      "tts_script": "[breath] Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='400ms'/> [thinking] Canal cervical de taille limite. <break time='300ms'/> Raideur cervicale avec perte de la lordose cervicale. <break time='200ms'/> Intégrité des unci. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='300ms'/> Pas de fracture ni de luxation inter-vertébrale."
+    },
+    {
+      "id": "146",
+      "original_id": "report_Cm3Q-XVltKEWqvhx5mix1rRmjL9ROH_dqU7APDiryyw",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "147",
+      "original_id": "report_zVHiB0Lm0Fa1xyzxzQKS6ZHxwfBkMggtxz30fgQbLdE",
+      "category": "shoulder_normal",
+      "tone": "routine",
+      "tts_script": "Pas de fracture au niveau de l'épaule. <break time='300ms'/> Pas d'atteinte gléno-humérale ni acromio-claviculaire. <break time='200ms'/> Intégrité des parties molles péri-articulaires. <break time='200ms'/> Respect de la minéralisation osseuse de l'épaule."
+    },
+    {
+      "id": "148",
+      "original_id": "report_oF13S0MKhEwVJFZvorJpVClYFDsX_8GPEo6ZBCCdQvA",
+      "category": "spine_normal",
+      "tone": "routine",
+      "tts_script": "Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur et des espaces inter-vertébraux. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales."
+    },
+    {
+      "id": "149",
+      "original_id": "report_Aw83VqsjTaJPqmJs3V8K62TKdPGf2teimaAraLbUYvk",
+      "category": "spine",
+      "tone": "clinical_neutral",
+      "tts_script": "[thinking] Discrète scoliose lombaire à convexité gauche. <break time='400ms'/> Pas de tassement vertébral ni d'érosion des plateaux vertébraux. <break time='300ms'/> Respect du mur vertébral postérieur. <break time='300ms'/> Pincement inter-vertébral L4-L5. <break time='200ms'/> Pas d'ostéophyte. <break time='200ms'/> Respect de la minéralisation osseuse vertébrale. <break time='200ms'/> Intégrité des parties molles para-vertébrales. <break time='600ms'/> [breath] <emphasis level='strong'>Au total</emphasis> : <break time='300ms'/> Discopathie L4-L5."
+    }
+  ]
+}

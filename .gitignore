@@ -1,0 +1,36 @@
+# Virtualenv
+.venv/
+
+# Python cache/artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.mypy_cache/
+.models/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Env/config
+.env
+.env.*
+.venv/
+.DS_Store
+.idea/
+.vscode/
+
+# App-specific
+gradio_cached_examples/
+logs/
+outputs/
+.cache/
+
+# Node (if present)
+node_modules/

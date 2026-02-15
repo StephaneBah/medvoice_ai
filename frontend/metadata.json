@@ -1,0 +1,7 @@
+{
+  "name": "MedVoice AI",
+  "description": "Système de génération de rapports médicaux par IA avec transcription adaptée aux accents africains.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

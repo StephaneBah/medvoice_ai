@@ -1,0 +1,602 @@
+{
+    "0": {
+        "identifiant": "report_CnGIjpEu9WIl3lJXeIdIY7Cd-txSUNoMToy_TWma32Y",
+        "contenu": "Fracture peu déplacée du col huméral."
+    },
+    "1": {
+        "identifiant": "report_QxjI35WATxkcOthJzYrmpFFdVz7Etu70eKJ-WuYocSk",
+        "contenu": "Disjonction acromio-claviculaire.\nPas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale .\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "2": {
+        "identifiant": "report_znO7zb_1ESS_RL7NlkmnkdylTIvg5SSzSjaDTzZPzKw",
+        "contenu": "Pas de fracture\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "3": {
+        "identifiant": "report_s00FQjZiNwYNYzembowEGM5HOmxL9OFyLz5SjiPduyg",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nDéminéralisation osseuse de l'épaule. "
+    },
+    "4": {
+        "identifiant": "report_dazq4xPq_LhPnz2bgyQmYHcKrXx3yNo5auG2swnSmpU",
+        "contenu": "Pas de fracture costale identifiable \nIntérêt d’une TDM  thoracique "
+    },
+    "5": {
+        "identifiant": "report_NxSmAyYz42CeH1IRNJXaSVSHMRR_WJ0IF0bvxM7z2Ak",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "6": {
+        "identifiant": "report_KqDWw6GF2UHml2c59jAD5n3HLL30iKBAE3j_4f0uTWg",
+        "contenu": "Pas de fracture costale identifiable.\nPas d’anomalie pleuro-parenchymateuse."
+    },
+    "7": {
+        "identifiant": "report_oqzb78c_pgfdiw1j5VE7h2EbK8pDy6JzqpeZG0SBT2Q",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur \nPincement inter-vertébral C6-C7. \nOstéophytes corporéaux étagés de C4 à C7. \nCanal cervical de taille normale.\nUncarthrose C6-C7 droite avec rétrécissement foraminal secondaire. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose cervicale étagée de C3 à C7 plus marquée en C6-C7.\nUncarthrose C6-C7 droite avec rétrécissement foraminal secondaire."
+    },
+    "8": {
+        "identifiant": "report_WPaxdNrHQGE14sctuPQ4DOFp_wb8vtgP5StxXZJ37Hg",
+        "contenu": "Technique\nAcquisition hélicoïdale sans injection.\n\nRésultat\nRocher droit\nConduit auditif externe de taille préservée et sans anomalie. \nMembrane tympanique fine. Chaîne ossiculaire intègre.\nBonne pneumatisation mastoïdienne et de la caisse du tympan. \nCanal du nerf facial sans signe de déhiscence dans la caisse du tympan. \nCochlée bien formée, avec deux spires et demie. \nCanaux semi-circulaires intègres et sans signe de déhiscence. \nConduit auditif interne de taille normale et sans anomalie visible. \nGolfe jugulaire en position normale, sans procidence ni évidence de déhiscence. \n\nRocher gauche : \nConduit auditif externe de taille préservée et sans anomalie. \nMembrane tympanique fine. Chaîne ossiculaire intègre. \nComblement de l’oreille moyenne et des cellules mastoïdiennes. \nCanal du nerf facial sans signe de déhiscence dans la caisse du tympan. \nCochlée bien formée, avec deux spires et demie. \nCanaux semi-circulaires intègres et sans signe de déhiscence. \nConduit auditif interne de taille normale est sans anomalie visible. \nGolfe jugulaire en position normale, sans procidence ni évidence de déhiscence.\n\nConclusion\nPas d’anomalie expliquant la symptomatologie.\nAspect en faveur d’une otomastoidite gauche. Rocher droit normal"
+    },
+    "9": {
+        "identifiant": "report_azjBrTYsu4RpALhHromUeH8T9VsDvEPslV2E-qkL5LY",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "10": {
+        "identifiant": "report_FL6K0Brxi0Ml0GGNplbgRA80x68RAhMtszHSbEMf-lQ",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nOn retrouve quelques géodes au niveau de la tête humérale.\nIntégrité des parties molles péri-articulaires.\nDéminéralisation osseuse de l'épaule. "
+    },
+    "11": {
+        "identifiant": "report_IYHxA9dAwW2noEWwBXhdtD5j39AMujZQlvIlzXd4kk0",
+        "contenu": "Pas de fracture \nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "12": {
+        "identifiant": "report_YIwMLNK7yV07_byhZxKWVSAJ9cft4dGSE4ao4wV_GbM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nDiscrets ostéophytes en L3.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose L3-L4 débutante.\n"
+    },
+    "13": {
+        "identifiant": "report_hVxc0Jn2egBrXkz4VN0KXrghVtq0w5VGiCxVWsM2AuI",
+        "contenu": "Technique\nAcquisition sans injection intraveineuse du produit de contraste\n\nRésultat\nAbsence de saignement intracrânien récent. \nAbsence d'anomalie de densité du parenchyme cérébral. \nLe système ventriculaire est symétrique et de taille normale. \nAbsence d’anomalie des espaces liquidiens péri-cérébraux.\nAbsence d’effet de masse intracrânien, notamment pas de déviation des structures de la ligne médiane ni d'engagement. \nBonne aération des cavités pneumatisées. \nAbsence d'anomalie significative des structures osseuses, notamment pas de fracture. \nParties molles sans particularité.\n \nConclusion\nAbsence de saignement intracrânien. \nAbsence de fracture du crâne."
+    },
+    "14": {
+        "identifiant": "report_M2wTsvq9juqnynWwUSQ3kUhwVruOZzey5faZUfAyuG4",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur . \nPincement inter-vertébral C3-C4 et C5-C6 avec ostéocondensation des plateaux vertébraux en regard des disques.\nOstéophytes corporéaux étagés de C3 à C6.  \nCanal cervical de taille normale.\nUncarthrose C5-C6 droite.\nPas de rétrécissement foraminal significatif aux différents étages,\nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose cervicale étagée de C3 à C6 plus marquée en C3-C4 et C5-C6,\nUncarthrose C5-C6 droite sans rétrécissement foraminal objectivable."
+    },
+    "15": {
+        "identifiant": "report_tqcQaUlnl4Uws_UDrbw0REjuHIETPknQv7HfEuFb-qU",
+        "contenu": "ICT= 0,48\nSilhouette cardiaque normale.\nPas de foyer de condensation pulmonaire.\nIntégrité des culs de sacs costo-diaphragmatiques.\nPas d’anomalie au niveau des différents arcs costaux.\nAspect normal des hiles pulmonaires.\n "
+    },
+    "16": {
+        "identifiant": "report_Kl4hVMi1xNQayscnSkVzc3xVrE7s88OdydZqFsf5CMM",
+        "contenu": "Scoliose lombaire à convexité gauche.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nPincement inter-vertébral avec antélisthésis grade 1 de L4.\nOstéophytes corporéaux étagés de L2 à L5 .\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à L5 plus marquée en L4-L5 sur scoliose lombaire à convexité gauche.\nAntélisthésis grade 1 de L4 secondaire."
+    },
+    "17": {
+        "identifiant": "report_neoTZG2umCtA9ejjbxnbyqGb3lDtQnpzLDLyGlvGRE0",
+        "contenu": "Luxation antéro-interne de l’épaule gauche avec arrachement du tubercule majeur."
+    },
+    "18": {
+        "identifiant": "report_h7clZwVrPUhWnenWeNfD7UCrCIa3B4S4oilBxwnQAzk",
+        "contenu": "Fracture du tiers moyen de la clavicule droite avec chevauchement."
+    },
+    "19": {
+        "identifiant": "report_j8eame8FYgkhgY7ASgsTGdGLDgEmO2SgOSHStiHEKqY",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nDéminéralisation osseuse de l'épaule. "
+    },
+    "20": {
+        "identifiant": "report_mammographie_136",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et asymétriques en densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans le sein gauche.\nOn retrouve une masse mobile dans la région rétro-aréolaire du sein droit.\nPas d’écoulement mammaire à la pression du mamelon gauche ce jour.\nEcoulement mammaire d’aspect laiteux du sein droit.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type B de la classification de BIRADS.\n\nA droite :\nPas de distorsion architecturale.\nAsymétrie de densité focalisée, nodulaire rétro-aréolaire, d’allure bénigne et de taille supra-centimétrique.\nPas de calcification.\nPas de lésion kystique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nA gauche :\nPas de distorsion architecturale.\nAsymétrie de densité focalisée, nodulaire d’allure bénigne et de taille infra-centimétrique siégeant dans le quadrant inféro-interne.\nPas de calcification.\nPas de lésion kystique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nConclusion :\nForte suspicion de nodule des seins d’allure bénigne sur seins de type B de la classification de BIRADS sans lésion suspecte à priori et classés ACR0. \nFaire une échographie mammaire en complément.\n"
+    },
+    "21": {
+        "identifiant": "report_aOw5Iu1dR7gITUx4qsYWzVqkf8z1FaHIvXKc4vZS2LA",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L3 à S1.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscopathie lombaire étagée de L3 à S1 "
+    },
+    "22": {
+        "identifiant": "report_DtJ3ND4F6oWaiJypWwXgGjVYsW9yIHu9cuA5Pe5ewKM",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nMise en évidence d’une vaste lacune au niveau de la tête humérale aux contours nets corticalisés faisant suspecter un kyste osseux. Intérêt d’une IRM de l’épaule."
+    },
+    "23": {
+        "identifiant": "report_0q_8Gc9auXyxeX6KC7EoX5KJx3z0vJuvCQYVN2s4JTQ",
+        "contenu": "Pas de fracture vertébrale ni de luxation inter-vertébrale.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "24": {
+        "identifiant": "report_W_ZAV1JzCU6-NXUNCOFeHjOueNntJ_rI4ahzEzKFcsE",
+        "contenu": "Fracture du tiers externe de la clavicule droite avec détachement d’un troisième fragment.\nPas d’atteinte gléno-humérale "
+    },
+    "25": {
+        "identifiant": "report_Srf3RiFKG-WvhvWYIUd6Adgpo4tsh0Yh1HDbayVFoRw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nOstéophytes corporéaux étagés de L3 à L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L3 à L5."
+    },
+    "26": {
+        "identifiant": "report_8xyhQG7pJ4Nv9627vd3VKclzGQL2barO_WjRzQ1-bWM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "27": {
+        "identifiant": "report_UUzaTaX-mfeuyjXBNOPM3VKtqSsOPY7myZwNBa8Xh54",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nDiscrets ostéophytes à l’étage C5-C6; \nCanal cervical de taille normale.\nUncarthrose C5-C6 droit. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nUncodiscarthrose C5-C6."
+    },
+    "28": {
+        "identifiant": "report_oERl4m57iy0CZM3sk-hsiXjshAVyen9Y4INX88maUTA",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nOstéophyte en L2.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose L1-L2"
+    },
+    "29": {
+        "identifiant": "report_5uAjLRWBJhizfGPRPlgbkZsRIH5K-CF1OO0mWl1yEmk",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "30": {
+        "identifiant": "report_k1S-S-2HekY8y8o-_hNrQvTmYvezomCCJyD7S5_Qn2g",
+        "contenu": "Arthrose acromio-claviculaire bilatérale.\nDéminiralisation osseuse bilatérale de l’epaule.."
+    },
+    "31": {
+        "identifiant": "report_CLhHrHn6gUnH_Y85jwkBxTdLV8l988kP4t8dqX88EOM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nOstéophytes corporéaux étagés de L2 à L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L1 à L5."
+    },
+    "32": {
+        "identifiant": "report__gqmZnO9sp0ZzFWzH371jWQBL_R6xD91E-Lx1IfJ7-Q",
+        "contenu": "RESULTATS\nAbsence de solution de continuité osseuse au niveau de l’épaule droite.\nIntégrité des cartilages de croissance."
+    },
+    "33": {
+        "identifiant": "report_-Xk0Z0-QJPbvT_uUCG4o79_GkEU82Kil4DCa5CF_6sU",
+        "contenu": "Déminéralisation osseuse vertébrale\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5 et L5-S1 avec ostéocondensation des plateaux vertébraux en regard du disque L5-S1.\nOstéophytes corporéaux étagés de L2 à S1.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à S1 plus marquée en L5-S1 sur déminéralisation osseuse vertébrale."
+    },
+    "34": {
+        "identifiant": "report_QdNSW-2fddER48iTifK28I1dDa1Aa-exNZjDgJFdMoI",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "35": {
+        "identifiant": "report_U-9c3qcKg3gWc8Ygl5e8KOXxnuQh3eIcFbSUZUpRhBc",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "36": {
+        "identifiant": "report_58h1nB0MUCet2VQogEjD6__b9R-PXPedeQPEI9GsEdo",
+        "contenu": "Doute sur une fracture de l’arc moyen de la 10ème cote gauche à corréler à la clinique."
+    },
+    "37": {
+        "identifiant": "report_J40fR_huk0Q3eF9dY0CEmu9L4Arf5Brg7zZ_6wZvd4E",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L3 à S1.\nOstéophytes corporéauxétagésde L1 à S1.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L1 à S1 "
+    },
+    "38": {
+        "identifiant": "report_a3HJm75MUlMZPnIKp97yES0DzAXNVUua6UOFIaoouCQ",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement L4-L5 \nPrésence d’ostéophyte en L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nScoliose lombaire à convexité droite.\nAU TOTAL \nDiscarthrose L4-L5 sur scoliose lombaire à convexité droite."
+    },
+    "39": {
+        "identifiant": "report_mammographie_140",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique mais sa grand-mère paternelle a eu un cancer du sein.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type C de la classification de BIRADS.\n\nA droite comme à gauche :\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité des mamelons, du revêtement cutané et des prolongements axillaires.   \n\nConclusion :\nSeins de type C de la classification de BIRADS, sans lésion suspecte à priori et classés ACR0. Faire une échographie mammaire en complément.\n"
+    },
+    "40": {
+        "identifiant": "report_TNJapSXgYEAVZqGYt7-Xx6z8rSWA3N8D5EuKzLUDsVk",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nPincement inter-vertébral aux étages L3-L4 et L4-L5.\nAntélisthésis grade 1 de L4.\nOstéophytes corporéaux étagés de L2 à S1.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L1 à S1 plus marquée en L3-L4 et L4-L5 avec antélisthésis grade 1 de L4."
+    },
+    "41": {
+        "identifiant": "report_SjwoJkWvUeaBxUsIs4u1xhQoJHhRzPztNmXOEYo8koM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux. \nCanal cervical de taille normale. \nPas d’ostéophyte.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "42": {
+        "identifiant": "report_7Gwzxi03TtV5kb9Je22o4A-mrMEiMEJQEWvXLxg2ur4",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur. \nPincement inter-vertébral L3-L4 et L4-L5 . \nOstéophytes corporéaux en L3, L4 et L5. \nRespect de la minéralisation osseuse vertébrale. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose L3-L4 et L4-L5."
+    },
+    "43": {
+        "identifiant": "report_qZpQYdL_fpYFbUfYbZoh9sR8xjDxgoxwM2XuLNfyl8g",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect de la ligne des épineuses et des processus articulaires.\nRespect du mur vertébral postérieur. \nIntégrité de l’anneau de Harris.\nPas de diastasis C1-C2\nPincement inter-vertébral C5-C6 et C6-C7.\nOstéophytes corporéaux en C5, C6 et C7; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nPas de lésion d’allure post traumatique.\nDiscarthrose cervicale étagée de C5 à C7."
+    },
+    "44": {
+        "identifiant": "report_fI-EU-yo5su3F1pbj-nog6lOW1FS-rXsHejaN2MHmVY",
+        "contenu": "Pas de fracture visible au niveau de l’épaule.\nPas de luxation  gléno-humérale ni de disjonction acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "45": {
+        "identifiant": "report_rst1Vqx2nrf-r0U51UuevbXdLwxDnhKnjmYjXJAk1ww",
+        "contenu": "Fracture de la phalange distale de l’hallux."
+    },
+    "46": {
+        "identifiant": "report_VkAU-MG5AVrE5w5LLb14pF9V2AOsuklqi-YzZSsJm9M",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nPincement inter-vertébral L4-L5.\nAntélisthésis grade 1 de L4\nOstéophytes en L4 et L5.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose L4-L5 avec antélisthésis grade 1 de L4."
+    },
+    "47": {
+        "identifiant": "report_s9CD2920VYRGv7duFpImuQ-nxavisGmWGVo0gQ9zfe4",
+        "contenu": "ICT= 0,5 \nSilhouette cardiaque normale. \nPas de foyer de condensation pulmonaire. \nIntégrité des culs de sacs costo-diaphragmatiques. \nPas d’anomalie au niveau des différents arcs costaux.\nAspect normal des hiles."
+    },
+    "48": {
+        "identifiant": "report_4epGcPG2Wva5Ez2FYaY5qTMVEgwRJCfo6cmHsphqj6s",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5\nOstéophytes corporéaux étagés de L2 à S1.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose étagée de L1 à S1. plus marquée en L4-L5"
+    },
+    "49": {
+        "identifiant": "report_cWaGlBdGxIHIyIPD1Ac8iJ4fc9tRT1tVEfYKQwbo0ys",
+        "contenu": "Luxation gléno-humérale antéro interne."
+    },
+    "50": {
+        "identifiant": "report_wNGJWcvCdosGT6GSX47oSolges6miw7XzDFkocoJ4tQ",
+        "contenu": "Pas de luxation gléno-humérale.\nPtose de la tête humérale avec élargissement de l’espace sous acromial.\nPas d’atteinte  acromio-claviculaire."
+    },
+    "51": {
+        "identifiant": "report_solqNjaVj36BKbEtMOVqdvoI9UsuDd7ansol8kiDGuY",
+        "contenu": "Fracture du tiers moyen de la clavicule avec un discret chevauchement."
+    },
+    "52": {
+        "identifiant": "report_P72AY1MDxd9mic0tcQfr3UCuFeRtCETc6r8nD8r8K14",
+        "contenu": "Déminéralisation osseuse vertébrale.\nUncarthrose C3-C4 gauche.\nPincement inter-vertébral C3-C4 et C5-C6.\nTassement cunéiforme de C5.\nOstéophytes corporéaux étagés de C3 à C5;\nCanal cervical de taille normale.\nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose cervicale étagée de C3 à C6 plus marquée en C3-C4 et C5-C6.\nUncarthrose C3-C4 gauche."
+    },
+    "53": {
+        "identifiant": "report_9OugJTY_WxUoOJ33vQwAYsol4zHP_dcjAURHmHGKPfA",
+        "contenu": "Fracture du col de l’humérus"
+    },
+    "54": {
+        "identifiant": "report_mammographie_148",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type B de la classification de BIRADS.\n\nA droite :\nPas de distorsion architecturale. \nKyste centimétrique du quadrant supéro-externe.\nPas de calcification.\nPas de lésion nodulaire suspecte.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nA gauche :\nPas de distorsion architecturale. \nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nConclusion :\nSeins de type B de la classification de BIRADS, avec lésion suspecte du sein droit comme sus-décrite. Le sein droit est classé ACR2 et le sein gauche ACR1.\n"
+    },
+    "55": {
+        "identifiant": "report_Frb_V-7-kZmFpmEz39AT8zAkdBEjFEdSciY8SE6_e7w",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "56": {
+        "identifiant": "report_ZDznt2LdPeY7K9hx7BZgl7477bQGY_cKq3S_Yij9OBw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "57": {
+        "identifiant": "report_twxJZxZLjoIeYaS6POsO0tg-kzdE0c71moLW3n6qiec",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L3-L4 avec ostéocondensation des plateaux vertébraux en regard du disque L3-L4.\nOstéophytes corporéaux étagés de L1 à S1 avec ponts ostéophytiques en L1-L2 et L2-L3.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L1 à S1 plus marquée en L3-L4."
+    },
+    "58": {
+        "identifiant": "report_yP4Wtno91JVex6cd4izFsQ06267flev6YdydB8rjebI",
+        "contenu": "ICT= 0,43\nSilhouette cardiaque normale.\nMultiples opacités pulmonaires bi-apicales confluentes aux contours flous prédominant à droite fort probablement en rapport avec un syndrome alvéolaire.\nIntégrité des culs de sacs costo-diaphragmatiques.\nPas d’anomalie au niveau des différents arcs costaux.\nAspect normal des hiles pulmonaires.\nAU TOTAL\nPneumopathie bilatérale prédominant à droite d’allure infectieuse.\n "
+    },
+    "59": {
+        "identifiant": "report_1urL6qQEO-EV2WdsWQ96t8bdd2m8_o8YjN_a0FScaQQ",
+        "contenu": "ICT= 0,57\nSilhouette cardiaque élargie.\nPas de foyer de condensation pulmonaire.\nIntégrité des culs de sacs costo-diaphragmatiques.\nPas d’anomalie au niveau des différents arcs costaux.\nAspect normal des hiles pulmonaires.\nIntérêt d’une TDM thoracique\n "
+    },
+    "60": {
+        "identifiant": "report_6rHb7QWe7u0CS_hHNAPaL8QTX7O0WQXbw7q-IF1-vMg",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur, des foramens de conjugaison et des espaces inter-vertébraux . \nOstéophytes corporéaux en C2, C5 et C6. \nCalcification du ligament longitudinal antérieur en regard des disques C2-C3, C4-C5, C5-C6 etr C6-C7.\nCanal cervical de taille normale.\nIntégrité des unci. ‘\nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose C2-C3, C5-C6 et C6-C7."
+    },
+    "61": {
+        "identifiant": "report_DEQP_baq2oynASIFKT1Huj1EgwK_wTZT0bRb5n6Mr88",
+        "contenu": "Pneumothorax gauche de grande abondance avec effet de masse sur le médiastin refoulé vers la droite "
+    },
+    "62": {
+        "identifiant": "report_43OifUVMfXwbq397L6I5RIU5knG-m4o0ifC1d4YWtSw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur \nPincement inter-vertébral C5-C6. \nPas d’ostéophyte. \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscopathie C5-C6.\nIntégrité des foramens de conjugaison."
+    },
+    "63": {
+        "identifiant": "report_FUl5Ejjyyic8q1-5eOGtVAvYcgU3elaZDRIGdn5Y41g",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L2-L3.\nOstéophytes corporéaux étagés de L1 à L4.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L1 à  L4 plus marquée en L2-L3."
+    },
+    "64": {
+        "identifiant": "report_0Jn2RPfGj_STL7GdrNX7W1-C4-p3rPUjgqZqDD5HgF0",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur. \nPincement inter-vertébral C6-C7. \nCanal cervical étroit.\nOstéophytes corporéaux en C6 et C7. \nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL \nDiscarthrose C6-C7 sur canal cervical étroit."
+    },
+    "65": {
+        "identifiant": "report_aZEuHAFwsjr_fLIij4jmMyV6Zpzie2rZgzuviHil2Ls",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "66": {
+        "identifiant": "report_HjyDWIu3tNScSE6b2tol4l9kpaKdNi3vRtkcmSoTs-Y",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "67": {
+        "identifiant": "report_EBa3rq5QV16AywRWWZHLOwHlabT6j65WgEBLCWzSyvk",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nAntélisthésis grade 1 de L4 .\nPincement inter-vertébral L4-L5 et L5-S1.\nOstéophytes corporéaux en L5 et S1 .\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nZygarthrose L4-L5 et L5-S1.\nAU TOTAL\nDiscarthrose et zygarthrose lombaires L4-L5 et L5-S1 avec antélisthésis grade 1 de L4."
+    },
+    "68": {
+        "identifiant": "report_L_qfyRdkqDdN6FEoXXmqu4vBJkoPRpjAzteTHxTGFuk",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur\nPincement inter-vertébral L4-L5 et L3-L4 \nOtéophytes corporéaux en L3 L4 et L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose L3-L4 et L4-L5 "
+    },
+    "69": {
+        "identifiant": "report_v3ISFClhoY184ZRTflM7vplNiL330txoFAWnH6Co-kQ",
+        "contenu": "On retrouve 6 vertèbres lombaires en rapport avec une anomalie transitionnelle de la charnière lombo-sacrée à type de lombalisation de S1 \nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement L4-L5.\nOstéophytes corporéaux étagés de L4 à S1.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L4 à S1."
+    },
+    "70": {
+        "identifiant": "report_RwmXTjmMGaaRxyJzUcVCUmMoIpS2ftvvD7IIcYpXJGo",
+        "contenu": "Pas de tassement vertébral\nPincement inter-vertébral étagé de L3 à S1 plus marqué en L4-L5 er L5-S1.\nAntélisthésis grade 1 de L4.\nOstéophytes corporéaux étagés de L3 à S1.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L3 à  S1 plus marquée  en L4-L5 er L5-S1 avec antélisthésis grade 1 de L4."
+    },
+    "71": {
+        "identifiant": "report_pWBb-wu-lfQ2U-V-ZQ6F_OgMUi_MXLYz7nOBKYB6gqo",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "72": {
+        "identifiant": "report_cJygPdUEy_e9uF130_WYsc18bKk83uyr4DNCnqDus6k",
+        "contenu": "Doute sur une fracture du tubercule majeure à corréler à la clinique\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\n"
+    },
+    "73": {
+        "identifiant": "report_fXz_V3e-ywhjOJbGkstaDhv8gihtb2dSGaV39EPRM88",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nInversion de la lordose lombaire avec une cyphose lombaire paradoxale.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de \nOstéophytes corporéaux étagés de L1 à L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nScoliose lombaire à convexité droite. \nAU TOTAL \nDiscarthrose lombaire étagée de L1 à L5 avec inversion de la lordose lombaire.\n\n"
+    },
+    "74": {
+        "identifiant": "report_QRCrJsE2DkwIhWysXXohnxa9yYJOHZ2Fw0__NIb39B0",
+        "contenu": "Déminéralisation osseuse vertébrale.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L2 à S1.\nOstéophytes corporéaux étagés de L1 à L5.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L1 à S1 sur déminéralisation osseuse vertébrale."
+    },
+    "75": {
+        "identifiant": "report_Clk3czxqf4IGQk5MFoQAbVZHfrsVXFsWgtdUaJG92vM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur.\n Pincement inter-vertébral C3-C4 \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscopathie C3-C4 "
+    },
+    "76": {
+        "identifiant": "report_XOvOVPSh84htql4xWsuvxhaDtPUoUj-mXNbZprjTzXA",
+        "contenu": "Pas de fracture costale.\nPas de foyer de pneumopathie évolutive"
+    },
+    "77": {
+        "identifiant": "report_CyXsanpItr9GdoksVA5Rl7me3jhGglkjELVrMdG3y3Y",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nAntélisthésis grade 1 de L4\nOstéophytes corporéaux en L4, L5 et L2.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose L4-L5 avec antilesthésis grade 1 de L4.\nDiscarthrose L2-L3."
+    },
+    "78": {
+        "identifiant": "report_25hGADGBJ-9JShEtUkve_-tQuPM5YXMrpvIbGUUeMnw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "79": {
+        "identifiant": "report_fdmMA3E8aDoDr0RTFTxNu6RlH9SrwNEyif3Wix0flK0",
+        "contenu": "Pas de fracture au niveau de l’épaule.\nPas de luxation  gléno-humérale ni de disjonction acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. \nArthrose acromio-claviculaire."
+    },
+    "80": {
+        "identifiant": "report_kR-6UhzsPBjFscqHQP_B34dPsbqtd0jI6ZINZA8Ien4",
+        "contenu": "Fracture de la tête de la phalange distale de l’hallux."
+    },
+    "81": {
+        "identifiant": "report_YhZmC2cdAaSfCK4AR390OfzcljvmIssDpG-VC8xRILI",
+        "contenu": "Réduction satisfaisante de la luxation gléno-humérale..\nPas d’atteinte acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "82": {
+        "identifiant": "report_mammographie_129",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type B de la classification de BIRADS.\n"
+    },
+    "83": {
+        "identifiant": "report_p0xRtDobhoOQRFwJgg2ujPh3qNV7ZeKe4EjfhAO_StM",
+        "contenu": "Disjonction acromio-claviculaire \nPas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "84": {
+        "identifiant": "report__Y3tcI0v4TGqvFnJi3RR6EIgXZAAqPV_2okj-O_tHpA",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur . \nPincement inter- vertébral L5-S1.\nPas d’ostéophyte. \nRespect de la minéralisation osseuse vertébrale. \nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscopathie L5-S1"
+    },
+    "85": {
+        "identifiant": "report_mammographie_149",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale, médio-latérale-oblique et médio-latérale droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins mais une petite boule dans le prolongement axillaire du sein gauche.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type A de la classification de BIRADS.\n\nA droite comme à gauche :\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité des mamelons, du revêtement cutané et des prolongements axillaires.   \n\nConclusion :\nSeins de type A de la classification de BIRADS, normaux et classés ACR1."
+    },
+    "86": {
+        "identifiant": "report_xWHbgFG76tI9FZyBvSQhhuwBB_dckft89LGw1i-CPAk",
+        "contenu": "Raideur rachidienne.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur .\nPincement inter-vertébral étagé de L2 à S1 avec osteocondensation des plateaux vertébraux en regard des disques  étagés de L3 à S1. \nOstéophytes corporéaux étagés de L1 à S1.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L1 à S1 sur raideur rachidienne. "
+    },
+    "87": {
+        "identifiant": "report_-Vp1H5PA4aRWlyUun4-_BF7ulOIaQts33AyLx4u99ZY",
+        "contenu": "Scoliose lombaire à convexité droite.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébraux L4-L5 avec ostéocondensation des plateaux vertébraux en regard du disque L4-L5.\nOstéophytes corporéaux étagés de L2 à S1.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à S1 plus marquée en L4-L5 sur scoliose lombaire à convexité droite."
+    },
+    "88": {
+        "identifiant": "report_AvbwWOhHa-4Sc3507QwvwCEl402LfskBhScNvStIwbg",
+        "contenu": "Pas de fracture au niveau de l’épaule.\nDisjonction acromio-claviculaire.\nPas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale .\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "89": {
+        "identifiant": "report_eVE3AGKRM5eBJgIpsFJnwrPOve5Z-M1jIePdwDp4eJs",
+        "contenu": "Pas de fracture\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "90": {
+        "identifiant": "report_moWjRGJ4LLaA9cEn-Z1047-smB4KfTqq4sVnw0-aUW0",
+        "contenu": "Fracture de la tête humérale avec détachement de fragments osseux.\nPas de luxation glen0-hemérale.\nPas d'atteinte acromio-claviculaire ."
+    },
+    "91": {
+        "identifiant": "report_mammographie_155",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale, médio-latérale-oblique et médio-latérale droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nEcoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type A de la classification de BIRADS.\n\nA droite comme à gauche :\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité des mamelons, du revêtement cutané et des prolongements axillaires.   \n\nConclusion :\nSeins de type A de la classification de BIRADS, normaux et classés ACR1.\n"
+    },
+    "92": {
+        "identifiant": "report_LTGcgYQHn3jodezHEcaL4U875_D9lw5uyVj80wJDS-Q",
+        "contenu": "Scoliose lombaire à convexité droite.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L3 à S1.\nOstéophytes corporéaux étagés de L2 à S1 .\nVide discal étagé de L3 à S1.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L1 à S1 sur scoliose lombaire à convexité gauche."
+    },
+    "93": {
+        "identifiant": "report_C8tMrM45AhgDDpFYtzdg08gycyjrdliGOmXhFBw0Ro0",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "94": {
+        "identifiant": "report_FMI-Pqebom50C1RwhONlNHxBdAMGqQRfhzfvfocA-iA",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "95": {
+        "identifiant": "report__eNAbsIM5DQrdwGIlLY5KIcDJMzLDjhaGxxrSVJ4LnM",
+        "contenu": "Opacité ovalaire bien limitée de densité hydrique au niveau des parties molles.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nRespect de la minéralisation osseuse de l'épaule. \nIntérêt d’une echographie de l’epaule en complément."
+    },
+    "96": {
+        "identifiant": "report_FAJPOTJfjWogRM1gkBFAIpOd5Ag3u6OdxeHilVLodKw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur\nPincement inter-vertébral  étagé de L3 à S1.\nOstéophytes corporéaux étagés de T11 à S1..\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nScoliose lombaire à convexité gauche.\nAU TOTAL \nDiscarthrose lombaire étagée de T11 à S1 "
+    },
+    "97": {
+        "identifiant": "report_uU9gmaeXw_oVVi7Bwo0eJ2Cu_pppkKU-FQ1nc38p470",
+        "contenu": "Technique\nAcquisition sans puis après injection intraveineuse de produit de contraste iodé.\n\nRésultat\nEtage thoracique : \nAbsence d'anomalie de la trachée ou des bronches proximales.\nPrésence d’un comblement diffus du champ pulmonaire droit avec bronchogramme aérique intra lésionnel. \nPrésence d’un épanchement pleural. bilatéral (droit de grand abondance, gauche de minime abondance) avec épaississement pleural circonférentiel  irrégulier pleural  droit responsable d’une atélectasie pulmonaire en regard et d’une déviation du médiastin vers la gauche.\nAbsence d’adénomégalie sus-diaphragmatique. \nCœur de taille normale.  Absence d’épanchement péricardique. Grands vaisseaux sans particularité (sous réserve de la technique). \n\nEtage  abdominopelvien : \nFoie de taille et de morphologie normales, sans lésion focale suspecte. Présence d’une formation de densité liquidienne du segment 4 non rehaussée après injection du produit de contraste.\nPerméabilité mésentérico-porte et hépatico-cave. Absence de dilatation des voies biliaires. \nVésicule biliaire sans lithiase dense.\nAbsence d’anomalie significative du pancréas, de la rate, des surrénales, des reins, des voies urinaires ou de la vessie. Kyste rénal polaire supérieur gauche infracentimétrique simple.\nAbsence d'anomalie de calibre ou de paroi du tube digestif, sous réserve de l'absence de préparation digestive. \nVolumineuse hernie ombilicale à contenu mixte ( graisse et anses ) non étranglée avec un défect de 58 mm.\nAbsence d’épanchement péritonéal ou de collection intra-abdominale. Absence de pneumopéritoine. \nAbsence d’adénomégalie sous-diaphragmatique. \nAbsence d'anomalie significative de l'aorte et de ses principaux troncs, sous réserve d'un examen non dédié. \nRétropéritoine sans particularité. \nAbsence d'effet de masse pelvien. \nAnalyse musculosquelettique : Absence de lésion osseuse suspecte.\n\nConclusion\nAspect TDM d’un épaississement pleural suspect droit avec pleurésie droite de grande abondance.\nCondensation pulmonaire diffuse droite .\nAbsence de lésion abdomino-pelvienne  d’allure suspecte.\n "
+    },
+    "98": {
+        "identifiant": "report_NBBBJxXXTh3U-BloS4GiHTtYVIwXhOrJ20XdYnYXqAY",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "99": {
+        "identifiant": "report_UyJ3-VF4tItHVkvjf6QWoDVqS-TkBfW0Kxc9DcZGlD0",
+        "contenu": "Pas de fracture au niveau des différents arcs costaux.\nPas de pneumothorax.\nPas de fracture des clavicules."
+    },
+    "100": {
+        "identifiant": "report_hYOKhE92YtQmdQN5CWuOtOZzmde-vWY_gsUj-rEYTZ0",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "101": {
+        "identifiant": "report_RLb4EPeQxj1k5zoofKj3SgWAzNNX_ZVvPnNyP77FXNE",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L2 à  L5.\nOstéophytes corporéaux étagés de L3 à S1.\nDéminéralisation osseuse vertébrale.\nInversion de la lordose lombaire.avec une cyphose lombaire paradoxale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire étagée de L2 à S1 avec inversion de la lordose lombaire.\n"
+    },
+    "102": {
+        "identifiant": "report_nRNA5YZl2Q3rrkWWXYTtV_DgPOf28teUNL23IGysJ4s",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nDéminéralisation osseuse de l'épaule. "
+    },
+    "103": {
+        "identifiant": "report_QXxMAZ1UyFLweGvZxFP1Km-w3JjFuqREwuexKchdLdU",
+        "contenu": "Discarthrose L3-L4."
+    },
+    "104": {
+        "identifiant": "report_wOTshdLp2DjSnZlWQ8e31ABQQL4Th_TuHdHPCOeolp0",
+        "contenu": "Pas de fracture ni de luxation du genou.\nRespect de la minéralisation osseuse du genou.\nRespect de l’interligne fémoro-tibial de même que les surfaces articulaires en regard .\nPas d’ostéophyte.\nIntégrité des parties molles péri -articulaires.\n"
+    },
+    "105": {
+        "identifiant": "report_883DnaoG7JMvagtWymk-_V2YtKJ7Yy5ADA0aviaQB_8",
+        "contenu": "Raideur cervicale avec perte de la lordose cervicale.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur \nPincement inter-vertébral C5-C6. \nOstéophytes en C5 et C6; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose C5-C6 sur raideur cervicale."
+    },
+    "106": {
+        "identifiant": "report_Y8bKZcL78ICsat9Br20mA7p69QQNGFaHgfIY8_N6MVI",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur. \nPincement inter-vertébral C6-C7 \nOstéophytes corporéaux étagés de C4 à C6; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose cervicale étagée de C4 à C7 plus marquée en C6-C7"
+    },
+    "107": {
+        "identifiant": "report_lrdIGdFNiYKSu-a9rHUyllclumOyYeyN1XgQU8Znyjw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L2 0 S1.\nOstéophytes corporéaux étagés de L2 à L5.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à S1 sur déminéralisation osseuse vertébrale."
+    },
+    "108": {
+        "identifiant": "report_MfR4NIEHiPsN8Hyygft2sSLFTAawf7dGCAEk1yILPAo",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur.\nPincement inter-vertébral C6-C7. \nOstéophytes corporéaux étagés de C5 à C7; \nDéminéralisation osseuse vertébrale.\nCanal cervical étroit.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. \nAU TOTAL\nDiscarthrose cervicale étagées de C4 à C7 plus marquée en C6-C7 sur canal cervical étroit."
+    },
+    "109": {
+        "identifiant": "report_YRPt4QOrZUTm6sVf7vVWjtVuvw7wbAEbJyqqNmIP4Sc",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci et des foramens de conjugaison. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "110": {
+        "identifiant": "report_Kt2oI9xECsdE0-4hQLXvMtTEr9mNyQXqcIY3U6cmCvc",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nAntélisthésis grade 2 de L5.\nPincement inter-vertébral L4-L5 et L5-S1 \nOstéophytes corporéaux en L5 et S1.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose L4-L5 et L5-S1 avec antélisthésis grade 2 de L5."
+    },
+    "111": {
+        "identifiant": "report_TNy7Z2CZXOi_yptA530ZJplGEARTl1yGktATxOvqVFM",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5.\nOstéophyte L4 et L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL \nDiscarthrose lombaire L3-L4 et L4-L5 plus marquée en L4-L5."
+    },
+    "112": {
+        "identifiant": "report_Q-IU3e4-m1FOHCsPSUZfffYVBVC-CPWq8acxMI2H8Rs",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "113": {
+        "identifiant": "report_TOJQQjoDyEeZjkZfWHz_kXkLoQzJWI0kw3SEqIvR-aY",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "114": {
+        "identifiant": "report_e7EbkqAyinYkmYg5sDRy7Tu7h18edwLghy_WzfN--X4",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "115": {
+        "identifiant": "report_-O1r169VFVEEU1dE_V7k796-gHSrejx7vP31B3xjwGQ",
+        "contenu": "Technique\nAcquisition sans injection intraveineuse du produit de contraste\n\nRésultat\nAbsence de saignement intracrânien récent. \nAbsence d'anomalie de densité du parenchyme cérébral. \nLe système ventriculaire est symétrique et de taille normale. \nAbsence d’anomalie des espaces liquidiens péri-cérébraux.\nAbsence d’effet de masse intracrânien, notamment pas de déviation des structures de la ligne médiane ni d'engagement. \nComblement total du sinus maxillaire gauche et partiel du sinus maxillaire droit.\nAbsence d'anomalie significative des structures osseuses, notamment pas de fracture. \nParties molles sans particularité.\nConclusion\nAbsence de saignement intracrânien. \nAbsence de fracture du crâne."
+    },
+    "116": {
+        "identifiant": "report_mammographie_127",
+        "contenu": "Antécédents : Il y a des antécédents du côté de la filiation maternelle et paternelle de la patiente notamment sa tante paternelle et sa tante maternelle ont souffert du cancer du col de l’utérus.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins asymétriques en volume et en densité avec un sein droit volumineux.\nSeins sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans le sein gauche.\nOn retrouve une grosse masse molle mobile occupant presque tous les quadrants du sein droit.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins asymétriques e   n volume et en densité avec un sein droit volumineux.\nIls sont de type C de la classification de BIRADS.\nA droite :\nVolumineuse asymétrie de densité focalisée, de contours irréguliers siégeant sur tous les quadrants du sein fortement suspecte.\nPas de calcification. \nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire. \n\nA gauche : \nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire. \n \nConclusion :\nSeins de type C de la classification de BIRADS, avec volumineuse lésion suspecte à explorer. Les seins sont classés ACR0.\nFaire une échographie mammaire en complément. \n"
+    },
+    "117": {
+        "identifiant": "report_GkxZ8fczykCkgCCDNkQ3iSXA12lHZmzfBzhagp_OdVg",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nDiscret ostéophyte corporéal antérieur en L3.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nVolumineuse calcification pelvienne droite.\nAU TOTAL\nDiscarthrose L2-L3"
+    },
+    "118": {
+        "identifiant": "report_06n36spl17eUdm5WQVNB5B6BQwdnW4b6ntSIxWlB8Gk",
+        "contenu": "A droite comme à gauche :\nPas d’atteinte acromio-claviculaire  ni gléno-humérale.\nIntégrité des cartilages de croissance.\nRespect  de la minéralisation osseuse de l’epaule.\nIntégrité des parties molles. "
+    },
+    "119": {
+        "identifiant": "report_-bfbLUe-VSH9v_P6UCWkscYTdUlJKAkpaXU7z-TK2aw",
+        "contenu": "Pas de fracture vertébrale ni de luxation inter-vertébrale. \nRespect de la ligne des epineuses.\nPas de rupture de l’anneau de Harris\nPas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "120": {
+        "identifiant": "report_V67AdLVnpX8i9WEsE6BY4-InmLGWhDqTeYIFQx_eZM4",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "121": {
+        "identifiant": "report_CfcGA_MYB8L1r5SsyerahlNPN72EUbe6HFy-hQzTK5g",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect de la minéralisation osseuse vertébrale. \nRespect du mur vertébral postérieur .\nPincement inter-vertébral L3-L4.\nPas d’ostéophyte . \nIntégrité des parties molles péri-articulaires\nAU TOTAL\nDiscopathie L3-L4."
+    },
+    "122": {
+        "identifiant": "report_ZoEzpCXgVvZD6X1hz8Y8DOfplY3OC8-TjutliV5_OcU",
+        "contenu": "Fracture du tiers moyen de la clavicule avec chevauchement "
+    },
+    "123": {
+        "identifiant": "report_fUzd85Pcjk4bvojgWmcyanwmX7oCEN9iIAbZbeWAIog",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement L2-L3\nOstéophytes corporéaux étagés de L2 à L4.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à L4 plus marquée en L2-L3."
+    },
+    "124": {
+        "identifiant": "report_eZAzXlrMQGkvyAcD1kSY0du63w-BCgoqtQ-OiLG6ioU",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "125": {
+        "identifiant": "report_ofajtlzpQkYg3ceWdPwId8dQ2RerMf5nhXeM2NT3YcA",
+        "contenu": "Scoliose lombaire à convexité droite.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5 et L5-S1.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscopathie L4-L5 et L5-S1 sur scoliose lombaire à convexité droite.."
+    },
+    "126": {
+        "identifiant": "report_mammographie_161",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type A de la classification de BIRADS.\n\nA droite :\nPas de distorsion architecturale.\nMicro-calcification du quadrant supéro-externe.\nPas de lésion nodulaire.\nPas de lésion kystique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nA gauche :\t\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nConclusion :\nSeins de type A de la classification de BIRADS, avec à droite une micro-calcification du quadrant supéro-externe. Le sein droit est classé ACR2 et le sein gauche ACR1."
+    },
+    "127": {
+        "identifiant": "report_oN95HlOqsgErdyQ1QTB2I-PE8KMDt_gSK_TGzlsXM6w",
+        "contenu": "Bassin \nRespect de la minéralisation osseuse du bassin.\nIntégrité des têtes fémorales.\nPas d’atteinte acétabulaire bilatérale.\nRespect de l’interligne coxo-fémorale bilatérale.\nIntégrité des cadres obturateurs.\nPas d’atteinte de la symphyse pubienne.\nGenou\nGonarthrose pancompartimentale prédominant en femoro-tibial interne.\nÉpanchement liquidien intra-articulaire.\nEnthesopathie du tendon du quadriceps.\n "
+    },
+    "128": {
+        "identifiant": "report__b4F3tJJXdJ4Abc4C_FUJkrKZWQ9kHMvjtqklWXQXrg",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5. \nDiscrets ostéophytes à l’etage L4-L5.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire L4-L5. "
+    },
+    "129": {
+        "identifiant": "report_diNXo4wYr5sh4XWiz_qiCgn8e8QNqtTtDI6rOZBdhps",
+        "contenu": "Fracture du tiers moyen de la clavicule avec détachement nt de quelques fragments."
+    },
+    "130": {
+        "identifiant": "report_LxbmrrVRwIASQa_lfBOosw7VZ3SCh6LjtDErc2fOcPs",
+        "contenu": "Pas d’anomalie de forme, de structure ou de densité au niveau des différents arcs costaux.\nPas de foyer de pleuro-pneumopathie évolutive."
+    },
+    "131": {
+        "identifiant": "report_YRO773Z7xHTlNVo9jEzqBzL9LsmF4s1BhUFgJPOliKI",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de C3 à C6. \nOstéophytes corporéaux antérieurs étagés de C3 à C6. \nCanal cervical de taille normale.\nIntégrité des unci et des foramens de conjugaison. \nIntégrité des parties molles para-vertébrales. \nDéminéralisation osseuse vertébrale.\nAU TOTAL\nDiscarthrose cervicale étagée de C3 à C6;\nIntégrité des foramens de conjugaison."
+    },
+    "132": {
+        "identifiant": "report_tmqb8saREeyEb6RgFKx63Zb96FcasmffdZUmBYuTZNY",
+        "contenu": "Pas de fracture au niveau de l’épaule..\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "133": {
+        "identifiant": "report_mammographie_138",
+        "contenu": "Antécédents : Il y a quelques antécédents particuliers du côté de la filiation maternelle de la patiente notamment sa grand-mère, sa cousine paternelle et sa petite sœur qui ont souffert de cancer du sein.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type B de la classification de BIRADS.\n\nA droite comme à gauche :\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité des mamelons, du revêtement cutané et des prolongements axillaires.   \n\nConclusion :\nSeins de type B de la classification de BIRADS, normaux et classés ACR1."
+    },
+    "134": {
+        "identifiant": "report_mammographie_121",
+        "contenu": "Antécédents : Il n’y a pas d’antécédents particuliers du côté de la filiation maternelle de la patiente notamment pas d’antécédent de cancer mammaire ou gynécologique.\n\nTechnique :\nIncidences cranio-caudale et médio-latérale-oblique droite et gauche.\n\nExamen physique :\nL’examen physique retrouve :\nSeins symétriques sans anomalie de volume et de densité.\nSeins symétriques sans anomalie de coloration cutanée.\nLa palpation ne retrouve pas de masse dans les seins.\nPas d’écoulement mammaire à la pression des mamelons ce jour.\n\nRésultats :\nSeins symétriques en volume et en densité.\nIls sont de type A de la classification de BIRADS.\n\nA droite :\nMicro-calcification vasculaire rétro-aréolaire.\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire ou kystique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n\nA gauche :\nPas de distorsion architecturale.\nPas d’asymétrie de densité focalisée, nodulaire ou stellaire suspecte d’allure tissulaire, kystique ou calcique.\nIntégrité du mamelon, du revêtement cutané et du prolongement axillaire.   \n \nConclusion :\nMicro-calcification vasculaire bénigne à droite comme sus-décrite sur seins de type A de la classification de BIRADS. Sein droit classé ACR2 et sein gauche ACR1.\n"
+    },
+    "135": {
+        "identifiant": "report_7uYmYAqRdJjtpz1BbynPvNfUD0ryAWXqRtIGJM4rLe8",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral étagé de L2 à S1 plus marqué en L4-L5 et L5-S1.\nOstéophytes corporéaux étagés de L3 à S1.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de L2 à S1 plus marquée en L4-L5 et L5-S1."
+    },
+    "136": {
+        "identifiant": "report_ohuSPicvcj6wDc064GnEXhdkQW4Z9vJCTq5ItHnkyqM",
+        "contenu": "Fracture de la scapula.\nDisjonction acromio-claviculaire. "
+    },
+    "137": {
+        "identifiant": "report_F2waR2rhCiLWlFMTWDKTTW8gao5RY9wJG2-aF8ovCv0",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille normale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales. "
+    },
+    "138": {
+        "identifiant": "report_Hciy9mOCW3c9hQCzshDT5pxl5ZgeZ87adV6VpAm8TPc",
+        "contenu": "Fracture du tiers moyen de la clavicule avec détachement d’un troisième fragment."
+    },
+    "139": {
+        "identifiant": "report_vQliJ3qxN2Qk5knUNcolZNinT24OmrlOrTDP5_dlxdE",
+        "contenu": "Fracture du tiers supérieur de l’humérus avec chevauchement et détachement d’un 3ème fragment. "
+    },
+    "140": {
+        "identifiant": "report_U3fjfSYQ5YuxfbU_utlKPy0EjiA1AjBEDI2itIRyFyU",
+        "contenu": "Pas de tendinopathie calcifiante de la coiffe des rotateurs.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "141": {
+        "identifiant": "report_VY1LX7rwoflSAl0wTFZYAwqyFvwFibqAHeQEbzoqVKs",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nOstéophytes corporéaux en T12, L1 et L2.\nOstéocondensation des plateaux vertébraux en regard du disque L1-L2.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose lombaire étagée de T12 à L2."
+    },
+    "142": {
+        "identifiant": "report_8BAs0TZXB8Ws9zn7KBV93ppcUo5CuywO_FzNxSfxXNs",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nOstéophyte en L3 et L4.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscarthrose L2-L3 et L3-L4 débutante."
+    },
+    "143": {
+        "identifiant": "report_5l4qa9ZXxUjtJhjX6aJlYVX4Uyk84V6OxXk4OcE-eBw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "144": {
+        "identifiant": "report_KXz0PIoW4XbD-b2l7CESbvRebk3l57NMa5-hcUrl6Co",
+        "contenu": "Tassement antérieur de T12 avec un arrachement d’un fragment osseux au niveau du versant antérieur du plateau vertébral inférieur de T12.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5.\nPas d’ostéophyte.\nDéminéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscopathie L4-L5.\nTassement antérieur de T12 avec arrachement d’un fragment osseux au niveau du versant antérieur du plateau vertébral inférieur de T12 sur déminéralisation osseuse vertébrale."
+    },
+    "145": {
+        "identifiant": "report_2TnSIhg-drDPZ2eu54sk6Rj36XSSUxm_NqpZKI7BYyg",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux. \nRespect du mur vertébral postérieur et des espaces inter-vertébraux . \nPas d’ostéophyte; \nCanal cervical de taille limite.\nRaideur cervicale avec perte de la lordose cervicale.\nIntégrité des unci. \nIntégrité des parties molles para-vertébrales.\nPas de fracture ni de luxation inter-vertébrale."
+    },
+    "146": {
+        "identifiant": "report_Cm3Q-XVltKEWqvhx5mix1rRmjL9ROH_dqU7APDiryyw",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "147": {
+        "identifiant": "report_zVHiB0Lm0Fa1xyzxzQKS6ZHxwfBkMggtxz30fgQbLdE",
+        "contenu": "Pas de fracture au niveau de l’épaule.\nPas d’atteinte gléno-humérale ni acromio-claviculaire.\nIntégrité des parties molles péri-articulaires.\nRespect de la minéralisation osseuse de l'épaule. "
+    },
+    "148": {
+        "identifiant": "report_oF13S0MKhEwVJFZvorJpVClYFDsX_8GPEo6ZBCCdQvA",
+        "contenu": "Pas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur et des espaces inter-vertébraux.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales."
+    },
+    "149": {
+        "identifiant": "report_Aw83VqsjTaJPqmJs3V8K62TKdPGf2teimaAraLbUYvk",
+        "contenu": "Discrète scoliose lombaire à convexité gauche.\nPas de tassement vertébral ni d’érosion des plateaux vertébraux.\nRespect du mur vertébral postérieur.\nPincement inter-vertébral L4-L5.\nPas d’ostéophyte.\nRespect de la minéralisation osseuse vertébrale.\nIntégrité des parties molles para-vertébrales.\nAU TOTAL\nDiscopathie L4-L5."
+    }
+}
