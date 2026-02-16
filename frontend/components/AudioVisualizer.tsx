@@ -4,10 +4,11 @@ import React, { useEffect, useRef } from 'react';
 interface AudioVisualizerProps {
   isRecording: boolean;
   isProcessing: boolean;
-  audioData?: number[];
+  /** Real AnalyserNode from AudioContext – when provided, uses live frequency data */
+  analyserNode?: AnalyserNode | null;
 }
 
-const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProcessing }) => {
+const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProcessing, analyserNode }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const animationRef = useRef<number>();
 
@@ -17,6 +18,10 @@ const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProces
 
     const ctx = canvas.getContext('2d');
     if (!ctx) return;
+
+    // Prepare a reusable buffer when an AnalyserNode is supplied
+    const bufferLength = analyserNode ? analyserNode.frequencyBinCount : 0;
+    const dataArray = bufferLength ? new Uint8Array(bufferLength) : null;
 
     let startTime = Date.now();
 
@@ -40,6 +45,11 @@ const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProces
 
       // Animated inner pulse
       if (isRecording || isProcessing) {
+        // Sample real frequency data if available
+        if (analyserNode && dataArray) {
+          analyserNode.getByteFrequencyData(dataArray);
+        }
+
         const pulse = Math.sin(time * 3) * (baseRadius * 0.07) + baseRadius * 0.52;
         const gradient = ctx.createRadialGradient(centerX, centerY, baseRadius * 0.2, centerX, centerY, pulse);
         gradient.addColorStop(0, 'rgba(6, 182, 212, 0.2)');
@@ -50,13 +60,25 @@ const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProces
         ctx.arc(centerX, centerY, pulse, 0, Math.PI * 2);
         ctx.fill();
 
-        // Moving data points
+        // Moving data points — use real audio data when available
         const points = 60;
         const radius = isProcessing ? baseRadius * 0.48 : baseRadius * 0.62;
         ctx.beginPath();
         for (let i = 0; i < points; i++) {
           const angle = (i / points) * Math.PI * 2;
-          const noise = isRecording ? Math.sin(time * 5 + i * 0.5) * 10 : Math.sin(time * 10 + i * 0.1) * 3;
+
+          let noise: number;
+          if (isRecording && dataArray && dataArray.length > 0) {
+            // Map the 60 points across the frequency bins
+            const binIndex = Math.floor((i / points) * dataArray.length);
+            // Normalize 0-255 to a displacement in pixels (0-20px)
+            noise = (dataArray[binIndex] / 255) * 20;
+          } else if (isRecording) {
+            noise = Math.sin(time * 5 + i * 0.5) * 10;
+          } else {
+            noise = Math.sin(time * 10 + i * 0.1) * 3;
+          }
+
           const r = radius + noise;
           const x = centerX + Math.cos(angle) * r;
           const y = centerY + Math.sin(angle) * r;
@@ -84,7 +106,7 @@ const AudioVisualizer: React.FC<AudioVisualizerProps> = ({ isRecording, isProces
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
-  }, [isRecording, isProcessing]);
+  }, [isRecording, isProcessing, analyserNode]);
 
   return (
     <div className="relative flex items-center justify-center">

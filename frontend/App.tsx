@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
 import NewReport from './components/NewReport';
+import HistoryView from './components/HistoryView';
 import SettingsView from './components/SettingsView';
 import { AppView, UserProfile, MedicalReport } from './types';
 
@@ -12,32 +13,25 @@ const App: React.FC = () => {
     name: '-',
     role: 'Médecin'
   });
-  
-  // Lifted state to manage saved reports across the app
-  const [reports, setReports] = useState<MedicalReport[]>([]);
 
-  const handleSaveReport = (newReport: MedicalReport) => {
-    setReports(prev => [newReport, ...prev]);
+  const handleSaveReport = (_newReport: MedicalReport) => {
+    // Report is already persisted in the backend via the pipeline.
+    // Navigate back to dashboard which will fetch fresh data.
     setCurrentView(AppView.DASHBOARD);
   };
 
   const renderView = () => {
     switch (currentView) {
       case AppView.DASHBOARD:
-        return <Dashboard user={user} reports={reports} />;
+        return <Dashboard user={user} />;
       case AppView.NEW_REPORT:
         return <NewReport onSave={handleSaveReport} />;
       case AppView.HISTORY:
-        return (
-          <div className="p-12 flex flex-col items-center justify-center h-full text-slate-500">
-            <h2 className="text-2xl font-bold text-white mb-2">Historique complet</h2>
-            <p>Accédez ici à l'intégralité de vos archives médicales.</p>
-          </div>
-        );
+        return <HistoryView />;
       case AppView.SETTINGS:
         return <SettingsView user={user} onUserChange={setUser} />;
       default:
-        return <Dashboard user={user} reports={reports} />;
+        return <Dashboard user={user} />;
     }
   };
 
