@@ -8,7 +8,7 @@ from pydantic import BaseModel
 
 from app.models.database import get_db
 from app.models.session import Session
-from app.services.llm_service import punctuate, diarize, correct
+from app.services.llm_service import punctuate, diarize, correct, process_transcription
 
 
 router = APIRouter()
@@ -38,7 +38,8 @@ async def apply_punctuation(
         raise HTTPException(status_code=400, detail="No transcription available. Run transcription first.")
     
     try:
-        result = punctuate(session.raw_transcription)
+        # Pass exam_type to allow specific handling (e.g. neutral for "simple")
+        result = punctuate(session.raw_transcription, exam_type=session.exam_type or "")
         session.punctuated_text = result
         db.commit()
         
@@ -104,7 +105,7 @@ async def apply_correction(
         raise HTTPException(status_code=400, detail="No transcription available.")
     
     try:
-        result = correct(source_text)
+        result = correct(source_text, exam_type=session.exam_type or "")
         session.corrected_text = result
         
         # For scribe mode, mark as completed after correction
@@ -141,20 +142,12 @@ async def run_full_pipeline(
         raise HTTPException(status_code=400, detail="No transcription available.")
     
     try:
-        # Step 1: Punctuate
-        punctuated = punctuate(session.raw_transcription)
-        session.punctuated_text = punctuated
-        
-        # Step 2: Diarize (only for conversation mode)
-        if session.type == "conversation":
-            diarized = diarize(punctuated)
-            session.diarized_text = diarized
-            source_for_correction = diarized
-        else:
-            source_for_correction = punctuated
-        
-        # Step 3: Correct
-        corrected = correct(source_for_correction)
+        # Fused CoT: punctuate + (diarize if conversation) + correct in ONE LLM call
+        corrected = process_transcription(
+            session.raw_transcription,
+            session_type=session.type or "conversation",
+            exam_type=session.exam_type or "",
+        )
         session.corrected_text = corrected
         
         db.commit()

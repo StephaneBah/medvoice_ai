@@ -18,6 +18,7 @@ interface NewReportProps {
 }
 
 const PRESET_EXAMS = [
+  "Consultation Simple",
   "Radio Pulmonaire",
   "Mammographie",
   "Scanner Abdominal",
@@ -43,7 +44,11 @@ const toText = (value: unknown): string => (typeof value === 'string' ? value.tr
 const extractJsonObject = (text: string): Record<string, unknown> | null => {
   if (!text || !text.trim()) return null;
 
-  const cleaned = text.trim().replace(/^```(?:json)?\s*/i, '').replace(/```$/i, '').trim();
+  const cleaned = text
+    .trim()
+    .replace(/```(?:json)?/gi, '')
+    .replace(/```/g, '')
+    .trim();
   const start = cleaned.indexOf('{');
   const end = cleaned.lastIndexOf('}');
   if (start === -1 || end === -1 || end <= start) return null;
@@ -63,9 +68,16 @@ const normalizeMedicalReportContent = (
   const empty = createEmptyMedicalReport();
 
   if (!content || typeof content !== 'object') {
+    // Attempt to parse string content as JSON if it looks like JSON
+    if (typeof content === 'string') {
+      const parsed = extractJsonObject(content);
+      if (parsed) {
+        return normalizeMedicalReportContent(parsed, fallbackTranscript);
+      }
+    }
     return {
       ...empty,
-      findings: fallbackTranscript || '',
+      findings: typeof content === 'string' ? content : fallbackTranscript || '',
     };
   }
 
@@ -78,17 +90,18 @@ const normalizeMedicalReportContent = (
     recommendations: toText(payload.recommendations),
   };
 
-  if (direct.clinicalIndication || direct.findings || direct.impression || direct.recommendations) {
+  // Check if "findings" actually contains the JSON structure (nested case)
+  if (direct.findings && (direct.findings.includes('{') || direct.findings.includes('```'))) {
     const nested = extractJsonObject(direct.findings);
-    if (nested) {
+    if (nested && (nested.clinicalIndication || nested.findings || nested.impression || nested.recommendations)) {
       return normalizeMedicalReportContent(nested, fallbackTranscript);
     }
-    return {
-      ...empty,
-      ...direct,
-      findings: direct.findings || fallbackTranscript || '',
-    };
   }
+
+  if (direct.clinicalIndication || direct.findings || direct.impression || direct.recommendations) {
+    return direct;
+  }
+
 
   const nested =
     payload.report_content ??

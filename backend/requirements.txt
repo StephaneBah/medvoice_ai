@@ -14,7 +14,7 @@ transformers>=4.36.0
 accelerate>=0.25.0
 
 # LLM
-mistralai>=0.1.0
+mistralai>=1.1.0
 
 # Audio
 pydub>=0.25.0

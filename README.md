@@ -1,351 +1,264 @@
-# 🏥 Transcription & Rapports Médicaux AI
+# MedVoice AI
 
-Application professionnelle de démonstration combinant transcription automatique de la parole (ASR) et génération de rapports structurés par LLM, dans un contexte médical et académique.
+Application de démonstration combinant transcription automatique de la parole (ASR) et génération de rapports médicaux structurés par LLM, développée dans le cadre d'un mémoire de licence à l'IFRI/UAC.
 
-## 🎯 Trois Fonctionnalités Principales
+## Architecture
 
-### 1️⃣ **Transcription Simple**
-
-Transcription audio rapide pour enregistrements courts ou dictée en temps réel.
-
-**Cas d'usage:**
-
-- 📝 Prise de notes vocales
-- 🎤 Mémos rapides  
-- 📞 Transcription d'appels courts
-
-**Caractéristiques:**
-
-- ✅ Micro en temps réel (streaming)
-- ✅ Upload de fichiers audio
-- ✅ Modèle Whisper optimisé français médical
-
----
-
-### 2️⃣ **Audio Long → Rapport Automatique**
-
-Pour enregistrements longs (conférences, entretiens, oraux de mémoire). Génère un rapport structuré.
-
-**Cas d'usage:**
-
-- 🎓 Oraux de mémoire
-- 🎙️ Conférences/séminaires
-- 📚 Entretiens de recherche
-
-**Caractéristiques:**
-
-- ✅ Transcription complète d'audio long
-- ✅ Génération de rapport par LLM (résumé, thèmes, actions)
-- ✅ Personnalisation via contexte
-
----
-
-### 3️⃣ **Rapport Clinique (Format SOAP)**
-
-Transforme une conversation médecin-patient en rapport clinique structuré professionnel.
-
-**Cas d'usage:**
-
-- 🩺 Consultations médicales (temps réel ou enregistrées)
-- 🏥 Documentation post-consultation
-- 🔬 Recherche en NLP clinique
-
-**Format de rapport généré:**
-
-```text
-MOTIF DE CONSULTATION
-  Raison principale de la visite
-
-ANAMNÈSE (SUBJECTIF)
-  - Symptômes rapportés (début, durée, intensité)
-  - Antécédents médicaux pertinents
-  - Médicaments actuels (DCI + posologie)
-  - Allergies connues
-  - Contexte social/familial si pertinent
-
-EXAMEN CLINIQUE (OBJECTIF)
-  - Signes vitaux mentionnés
-  - Observations physiques
-  - Résultats d'examens complémentaires
-
-ÉVALUATION (ASSESSMENT)
-  - Diagnostic(s) probable(s)
-  - Diagnostic(s) différentiel(s)
-  - Gravité/urgence estimée
-
-PLAN DE TRAITEMENT
-  - Prescriptions (médicaments, posologies, durée)
-  - Examens complémentaires à réaliser
-  - Orientations/référence vers spécialiste
-  - Conseils hygiéno-diététiques
-
-SUIVI ET RECOMMANDATIONS
-  - Prochaine consultation
-  - Signes d'alerte à surveiller
-  - Éducation thérapeutique
+```
+┌─────────────────────┐       API REST        ┌─────────────────────────┐
+│   Frontend (React)  │ ◄──── /api/v1 ──────► │   Backend (FastAPI)     │
+│   Vite + TypeScript │       proxy:3000→8000  │   Python + SQLAlchemy   │
+│   Tailwind CSS      │                        │   SQLite                │
+└─────────────────────┘                        └──────────┬──────────────┘
+                                                          │
+                                          ┌───────────────┼───────────────┐
+                                          ▼                               ▼
+                                   ┌─────────────┐                ┌─────────────┐
+                                   │  Whisper ASR │                │ Mistral LLM │
+                                   │  (local)     │                │ (API cloud) │
+                                   │  Audio→Texte │                │ Texte→Texte │
+                                   └─────────────┘                └─────────────┘
 ```
 
-**Caractéristiques:**
+**Séparation stricte :** Whisper ne voit jamais de texte, Mistral ne voit jamais d'audio.
 
-- ✅ Format SOAP (Subjective, Objective, Assessment, Plan)
-- ✅ Extraction d'entités médicales (symptômes, médicaments, dosages)
-- ✅ Conservation des données chiffrées exactes
-- ✅ Inspiré de la recherche en clinical NLP
-- ⚠️ **Démo recherche uniquement** — Ne remplace pas un dossier médical officiel
+### Modèles
 
----
+| Composant | Modèle | Rôle |
+|-----------|--------|------|
+| ASR | `StephaneBah/Med-Whisper-AfroRad-FR` | Whisper fine-tuné pour le français médical/radiologique (local, GPU/CPU) |
+| LLM | `mistral-large-latest` (Mistral API) | Traitement CoT du texte + génération de rapports (API cloud) |
 
-## 🔧 Architecture Technique
+### Stack technique
 
-### Modèles utilisés
-
-- **ASR (Speech-to-Text):** `StephaneBah/whisper-small-rad-fr2.0` (révision `81a88f4`)
-  - Whisper fine-tuné pour le français médical/radiologique
-  - Pipeline Transformers avec chunking (30s) + stride
-  
-- **LLM (Résumé/Rapport):** `google/flan-t5-xl` (~2.7B paramètres)
-  - Modèle seq2seq avec quantization 4-bit (bitsandbytes)
-  - Prompts spécialisés selon le type de rapport
-
-### Performance
-
-- **GPU NVIDIA recommandé** (CUDA) pour temps réel acceptable
-  - ASR: float16 sur GPU, float32 sur CPU
-  - LLM: 4-bit quantization si possible, sinon 8-bit, sinon CPU
-- **Fonctionne sur CPU** mais plus lent (non recommandé pour temps réel)
+| Couche | Technologies |
+|--------|-------------|
+| Frontend | React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons |
+| Backend | FastAPI, Uvicorn, Pydantic, SQLAlchemy, SQLite |
+| ASR | PyTorch, Transformers (pipeline Whisper), float16/GPU ou float32/CPU |
+| LLM | Mistral AI API (cloud) |
 
 ---
 
-## 📦 Installation
+## Fonctionnalités
+
+### 1. Consultation (mode `conversation`)
+
+Transforme un enregistrement de dialogue médecin-patient en rapport clinique structuré.
+
+**Pipeline :**
+```
+Audio → Whisper ASR → CoT (ponctuation + diarisation + correction) → Rapport SOAP
+         1 appel local          1 appel LLM                          1 appel LLM
+```
+
+**Format de sortie (SOAP) :**
+- **Indication clinique** — Contexte et motif de l'examen
+- **Observations** — Constatations détaillées
+- **Impression** — Conclusion diagnostique
+- **Recommandations** — Plan de suivi
+
+### 2. Documentation (mode `scribe`)
+
+Transcrit et nettoie une dictée médicale mono-locuteur. Pas de diarisation.
+
+**Pipeline :**
+```
+Audio → Whisper ASR → CoT (ponctuation + correction) → Texte nettoyé
+         1 appel local        1 appel LLM                (pas d'appel LLM supplémentaire)
+```
+
+### Entrée audio
+
+- Enregistrement micro en temps réel (MediaRecorder WebM)
+- Upload de fichier audio (MP3, WAV, M4A, WebM)
+
+---
+
+## Installation
 
 ### Prérequis
 
 - Python 3.10+
-- GPU NVIDIA avec CUDA (recommandé)
-- Compte Hugging Face avec token API
+- Node.js 18+
+- GPU NVIDIA + CUDA (recommandé pour l'ASR)
+- Clé API Mistral
+- Token Hugging Face (pour le modèle ASR)
 
-### Étapes
-
-#### 1) Créer l'environnement virtuel
+### 1. Environnement Python
 
 ```bash
 cd "App Demo"
 python -m venv .venv
-```
 
-**Activer l'environnement:**
-
-```powershell
 # Windows PowerShell
 .venv\Scripts\Activate.ps1
-```
 
-```bash
 # Linux/macOS
 source .venv/bin/activate
+
+# Dépendances backend
+pip install -r backend/requirements.txt
+
+# PyTorch avec CUDA (recommandé)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
 
-#### 2) Installer les dépendances
+### 2. Dépendances frontend
 
 ```bash
-pip install -r requirements.txt
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 
+cd frontend
+npm install
 ```
 
-> **Note Windows:** `bitsandbytes` n'est pas toujours disponible. L'app basculera automatiquement en mode 8-bit ou CPU.
+### 3. Configuration
 
-#### 3) Configurer le token Hugging Face
-
-Créez un fichier `.env` à la racine:
+Créer un fichier `.env` à la racine :
 
 ```env
+MISTRAL_API_KEY=votre_clé_mistral
 HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
-Ou définissez la variable d'environnement:
+### 4. Lancement
 
-```powershell
-# PowerShell
-$env:HF_TOKEN="hf_XXXXXXXXXXXXXXXXXXXXXXXX"
-```
-
+**Terminal 1 — Backend (port 8000) :**
 ```bash
-# Linux/macOS
-export HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXX
+cd backend
+python run.py
 ```
 
-#### 4) Lancer l'application
-
+**Terminal 2 — Frontend (port 3000) :**
 ```bash
-python app.py
+cd frontend
+npm run dev
 ```
 
-L'interface sera disponible sur **<http://localhost:7860>**
+L'application est accessible sur **http://localhost:3000**.
+
+Le frontend proxy automatiquement les appels `/api/*` vers le backend sur le port 8000.
 
 ---
 
-## 🖥️ Interface Utilisateur
+## Structure du projet
 
-### Design professionnel
-
-- 🎨 Interface moderne avec gradients et cartes
-- 📱 Layout responsive
-- 🎯 Navigation par onglets claire
-- 📋 Boutons de copie pour tous les résultats
-- ⚡ Indicateurs de statut en temps réel
-
-### Workflow par feature
-
-#### 📝 Feature 1 - Transcription Simple
-
-1. Onglet "Transcription Simple"
-2. Choisir "Enregistrement direct" (micro) ou "Fichier audio"
-3. Parler ou uploader le fichier
-4. Récupérer la transcription
-
-#### 📊 Feature 2 - Audio Long → Rapport
-
-1. Onglet "Audio Long → Rapport"
-2. Uploader un fichier audio long
-3. (Optionnel) Ajouter du contexte dans la zone de texte
-4. Cliquer sur "Transcrire et générer le rapport"
-5. Obtenir transcription brute + rapport structuré
-
-#### 🩺 Feature 3 - Rapport Clinique
-
-1. Onglet "Rapport Clinique"
-2. Choisir la spécialité médicale dans le menu déroulant
-3. Enregistrer en direct (micro) ou uploader une consultation
-4. (Optionnel) Ajouter des notes cliniques
-5. Cliquer sur "Générer le rapport clinique"
-6. Obtenir rapport au format SOAP complet
+```
+App Demo/
+├── backend/
+│   ├── run.py                          # Point d'entrée serveur
+│   ├── requirements.txt
+│   └── app/
+│       ├── main.py                     # App FastAPI + CORS + routes
+│       ├── config.py                   # Settings (env vars, modèles)
+│       ├── api/v1/endpoints/
+│       │   ├── audio.py                # Upload audio
+│       │   ├── transcribe.py           # ASR Whisper
+│       │   ├── process.py              # Pipeline CoT (full-pipeline)
+│       │   ├── report.py               # Génération de rapport
+│       │   └── sessions.py             # CRUD sessions
+│       ├── models/
+│       │   ├── database.py             # SQLAlchemy + SQLite
+│       │   └── session.py              # Modèle Session
+│       ├── schemas/                    # Schémas Pydantic
+│       └── services/
+│           ├── asr_service.py          # Whisper pipeline (local)
+│           ├── llm_service.py          # Mistral API (CoT + rapports)
+│           └── audio_utils.py          # Conversion audio (pydub)
+├── frontend/
+│   ├── index.html / index.tsx          # Point d'entrée
+│   ├── App.tsx                         # Router principal
+│   ├── types.ts                        # Types TypeScript
+│   ├── vite.config.ts                  # Config Vite + proxy
+│   ├── components/
+│   │   ├── NewReport.tsx               # Créer un rapport (record/upload → pipeline)
+│   │   ├── Dashboard.tsx               # Tableau de bord
+│   │   ├── Sidebar.tsx                 # Navigation latérale
+│   │   ├── SettingsView.tsx            # Paramètres
+│   │   └── AudioVisualizer.tsx         # Visualisation audio
+│   └── services/
+│       └── apiService.ts              # Client HTTP centralisé
+├── app.py                              # Version legacy Gradio (référence)
+└── .env                                # Variables d'environnement
+```
 
 ---
 
-## ⚙️ Configuration Avancée
+## API REST
+
+| Méthode | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/api/v1/audio/upload` | Upload audio + création de session |
+| POST | `/api/v1/transcribe/{id}` | Transcription ASR (Whisper) |
+| POST | `/api/v1/process/{id}/full-pipeline` | Pipeline CoT complet (1 appel LLM) |
+| POST | `/api/v1/process/{id}/punctuate` | Ponctuation seule |
+| POST | `/api/v1/process/{id}/diarize` | Diarisation seule |
+| POST | `/api/v1/process/{id}/correct` | Correction seule |
+| POST | `/api/v1/report/{id}/generate` | Génération du rapport final |
+| GET | `/api/v1/sessions` | Liste des sessions |
+| GET | `/api/v1/sessions/{id}` | Détail d'une session |
+| DELETE | `/api/v1/sessions/{id}` | Supprimer une session |
+| GET | `/health` | Health check |
+
+Documentation Swagger automatique : **http://localhost:8000/docs**
+
+---
+
+## Configuration avancée
 
 ### Variables d'environnement
 
 ```env
-# Obligatoire pour accès aux modèles
-HF_TOKEN=hf_xxx
+# Obligatoires
+MISTRAL_API_KEY=...          # Clé API Mistral
+HF_TOKEN=hf_...              # Token Hugging Face
 
-# Optionnel: changer le modèle de résumé
-SUMMARIZER_MODEL_ID=google/flan-t5-large  # Plus petit/rapide
-# ou
-SUMMARIZER_MODEL_ID=google/flan-t5-xxl    # Plus puissant
+# Optionnels (valeurs par défaut)
+ASR_MODEL_ID=StephaneBah/Med-Whisper-AfroRad-FR
+LLM_MODEL_ID=mistral-large-latest
+DATABASE_URL=sqlite:///./medvoice.db
+MAX_AUDIO_SIZE_MB=50
+MAX_AUDIO_DURATION_MINUTES=30
+DEBUG=false
 ```
 
-### Optimisation mémoire GPU
+### Performance ASR
 
-Dans `app.py`, vous pouvez ajuster:
-
-```python
-# ASR chunking (réduire si RAM limitée)
-chunk_length_s=30  # → 20
-stride_length_s=(5, 2)  # → (3, 1)
-
-# Tokens générés (réduire pour moins de VRAM)
-max_new_tokens=640  # Feature 2
-max_new_tokens=768  # Feature 3
-```
-
-### Personnalisation des prompts
-
-Modifier les fonctions dans `app.py`:
-
-- `generate_report()` → Feature 2 (rapport général)
-- `generate_clinical_report()` → Feature 3 (rapport SOAP)
-
-Pour adapter le format de sortie, les sections, le ton, etc.
-
-### Exposition réseau
-
-Pour rendre l'app accessible sur le réseau local, c'est déjà configuré par défaut:
-
-```python
-demo.launch(
-    server_name="0.0.0.0",  # Accessible sur LAN
-    server_port=7860,
-    share=False,  # Mettre True pour lien public Gradio
-)
-```
+- **GPU NVIDIA (CUDA)** : float16, ~2-3s pour un audio de 30s
+- **CPU** : float32, plus lent (~10-15s pour 30s d'audio)
+- Le modèle Whisper est chargé en lazy singleton (premier appel uniquement)
 
 ---
 
-## 📚 Références Scientifiques
+## Avertissements
 
-Cette application s'inspire de travaux de recherche en NLP clinique:
-
-- **Clinical Text Summarization with LLMs** (2023-2024)
-  - Format SOAP structuré
-  - Extraction d'entités médicales
-  - Fidélité au verbatim
-
-- **Real-time Speech Summarization for Medical Conversations**
-  - Streaming ASR médical
-  - Latence acceptable pour usage clinique
-  - Génération incrémentale de rapports
-
-- **Temporal Relation Extraction in Clinical Notes**
-  - Conservation des données temporelles
-  - Extraction de posologies et dosages
+- **Pas un dispositif médical** — outil de recherche/démonstration uniquement
+- Ne remplace pas un dossier patient officiel
+- Validation humaine obligatoire pour tout usage clinique réel
+- Les LLM peuvent halluciner — toujours vérifier les faits médicaux
+- Optimisé pour le français uniquement
 
 ---
 
-## ⚠️ Avertissements et Limitations
+## Contexte du Projet
 
-### ⚡ Performance
-
-- **Temps réel** : nécessite GPU pour latence acceptable (~2-3s)
-- **Streaming** : mise à jour par batch (2-3s), pas token-par-token
-- **Charge** : ASR + LLM simultanés = ~8-12 GB VRAM (T5-XL quantifié)
-
-### 🔒 Usage médical
-
-- ❌ **Pas un dispositif médical** — outil de recherche/démonstration uniquement
-- ❌ Ne remplace pas un dossier patient officiel
-- ❌ Validation humaine obligatoire pour tout usage clinique réel
-- ✅ Respecte l'anonymisation (pas de noms dans les prompts)
-
-### 🐛 Limitations connues
-
-- **Streaming audio** : mise à jour par batch, pas en continu
-- **Hallucinations LLM** : toujours vérifier les faits médicaux
-- **Langue** : optimisé pour français uniquement
-- **Formats audio** : MP3, WAV, M4A recommandés
-- **Diarisation** : feature désactivée pour le moment (prévue v3.0)
-
----
-
-## 🔬 Contexte du Projet
-
-Ce projet s'inscrit dans le cadre d'un **mémoire de licence** explorant:
+Ce projet s'inscrit dans le cadre d'un **mémoire de licence** à l'IFRI/UAC explorant :
 
 - L'application de l'ASR en contexte médical francophone
-- La génération automatique de documentation clinique
-- L'évaluation de LLM pour le résumé médical
+- La génération automatique de documentation clinique par LLM
+- Le traitement Chain-of-Thought (CoT) pour améliorer la qualité des transcriptions
 - Les défis éthiques et techniques du NLP en santé
 
-**Objectifs académiques:**
+---
 
-- Démontrer la faisabilité technique
-- Identifier les limites et risques
-- Proposer un cadre d'évaluation
-- Contribuer à la recherche en IA médicale francophone
+## Références
+
+- Hugging Face Transformers : <https://huggingface.co/docs/transformers>
+- FastAPI : <https://fastapi.tiangolo.com>
+- Mistral AI : <https://docs.mistral.ai>
+- React : <https://react.dev>
 
 ---
 
-## 📞 Support & Contribution
-
-Pour questions techniques ou contributions:
-
-- 📖 Documentation Gradio: <https://gradio.app/docs>
-- 🤗 Hugging Face Transformers: <https://huggingface.co/docs/transformers>
-- 🔬 Papers: voir section Références
-
----
-
-## 📄 Licence
+## Licence
 
 Projet académique de démonstration — Mémoire de Licence 2026

@@ -34,3 +34,6 @@ outputs/
 
 # Node (if present)
 node_modules/
+
+#backend
+backend/uploads

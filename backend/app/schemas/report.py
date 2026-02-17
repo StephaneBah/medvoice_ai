@@ -18,8 +18,7 @@ class MedicalReportContent(BaseModel):
 
 class DocumentationContent(BaseModel):
     """Scribe documentation content (for scribe mode)."""
-    title: str
-    correctedText: str
+    transcription: str
 
 
 # --- Request/Response Schemas ---

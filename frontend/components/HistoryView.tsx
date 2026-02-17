@@ -81,7 +81,10 @@ const HistoryView: React.FC = () => {
 
   const extractJsonObject = (value: unknown): Record<string, unknown> | null => {
     if (typeof value !== 'string') return null;
-    const cleaned = cleanText(value);
+    const cleaned = cleanText(value)
+      .replace(/```(?:json)?/gi, '')
+      .replace(/```/g, '')
+      .trim();
     const start = cleaned.indexOf('{');
     const end = cleaned.lastIndexOf('}');
     if (start === -1 || end === -1 || end <= start) return null;
@@ -100,37 +103,47 @@ const HistoryView: React.FC = () => {
     fallbackText: string,
   ): Record<string, unknown> => {
     const empty = createEmptyMedicalReport();
-    const objectContent = toObject(content) || extractJsonObject(content);
-
-    if (!objectContent) {
-      return { ...empty, findings: fallbackText };
+    
+    // Attempt to parse string content if it looks like JSON
+    if (typeof content === 'string' && content.trim().startsWith('{')) {
+      const parsed = extractJsonObject(content);
+      if (parsed) return normalizeMedicalReport(parsed, fallbackText);
+    }
+    
+    if (!content || typeof content !== 'object') {
+       return { ...empty, findings: typeof content === 'string' ? content : fallbackText };
     }
 
+    const payload = content as Record<string, unknown>;
+    
     const normalized = {
-      clinicalIndication: asText(objectContent.clinicalIndication),
-      findings: asText(objectContent.findings),
-      impression: asText(objectContent.impression),
-      recommendations: asText(objectContent.recommendations),
+      clinicalIndication: asText(payload.clinicalIndication),
+      findings: asText(payload.findings),
+      impression: asText(payload.impression),
+      recommendations: asText(payload.recommendations),
     };
 
-    const nested = extractJsonObject(normalized.findings);
-    if (nested) {
-      return normalizeMedicalReport(nested, fallbackText);
+    // Check if 'findings' contains a JSON structure
+    if (normalized.findings && normalized.findings.trim().startsWith('{')) {
+       const nested = extractJsonObject(normalized.findings);
+       if (nested && (nested.clinicalIndication || nested.findings || nested.impression)) {
+         return normalizeMedicalReport(nested, fallbackText);
+       }
     }
 
     if (normalized.clinicalIndication || normalized.findings || normalized.impression || normalized.recommendations) {
       return {
-        ...empty,
+        ...empty, 
         ...normalized,
-        findings: normalized.findings || fallbackText,
+        findings: normalized.findings || fallbackText
       };
     }
 
     const wrapped =
-      objectContent.report_content ??
-      objectContent.content ??
-      objectContent.report ??
-      (typeof objectContent.transcription === 'string' ? { findings: objectContent.transcription } : null);
+      payload.report_content ??
+      payload.content ??
+      payload.report ??
+      (typeof payload.transcription === 'string' ? { findings: payload.transcription } : null);
 
     if (wrapped) return normalizeMedicalReport(wrapped, fallbackText);
 

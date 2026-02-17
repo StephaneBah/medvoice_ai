@@ -3,7 +3,7 @@
 print("🔄 Préchargement des modèles...\n")
 
 # 1. Modèle ASR (Whisper fine-tuné)
-print("📥 Téléchargement du modèle ASR (whisper-small-rad-FR2)...")
+print("📥 Téléchargement du modèle ASR...")
 from app import load_asr
 asr = load_asr()
 print(f"✅ ASR chargé sur {asr.device}\n")

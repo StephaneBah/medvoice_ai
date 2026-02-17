@@ -47,8 +47,8 @@ warnings.filterwarnings("ignore", message=".*The attention mask is not set.*")
 # ║                              CONFIGURATION                                    ║
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 
-ASR_MODEL_ID = "StephaneBah/Med-Whisper-AfroRad-FR" #"StephaneBah/whisper-small-rad-FR2"
-ASR_MODEL_REVISION = "8b973261fd7f275577f0c7e56703d30a7102e59d"  # Révision utilisée dans le notebook
+ASR_MODEL_ID = "StephaneBah/Whisper-AfroRad-FR" #"StephaneBah/Med-Whisper-AfroRad-FR" #"StephaneBah/whisper-small-rad-FR2"
+ASR_MODEL_REVISION = "574cb8a500851c1b3aade0d79db4a92499c6f5b3" #"8b973261fd7f275577f0c7e56703d30a7102e59d"  # Révision utilisée dans le notebook
 ASR_LANGUAGE = "fr"
 
 SUMMARIZER_MODEL_ID = os.environ.get("SUMMARIZER_MODEL_ID", "mistral-large-latest")

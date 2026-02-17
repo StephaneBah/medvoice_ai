@@ -12,7 +12,7 @@ from app.schemas.report import (
     ReportGenerateResponse,
     ReportUpdateRequest
 )
-from app.services.llm_service import generate_soap_report, generate_scribe_document
+from app.services.llm_service import generate_soap_report
 
 
 router = APIRouter()
@@ -50,36 +50,49 @@ async def generate_report(
     elif session.clinical_context:
         context = session.clinical_context
     
-    try:
-        if session.type == "conversation":
-            # Generate SOAP report
+    if session.type == "conversation":
+        report_type = "medical_report"
+        try:
             content = generate_soap_report(
                 transcript=transcript,
                 context=context,
                 exam_type=session.exam_type or ""
             )
-            report_type = "medical_report"
-        else:
-            # Generate scribe documentation
-            content = generate_scribe_document(
-                transcript=transcript,
-                exam_type=session.exam_type or ""
-            )
-            report_type = "documentation"
-        
-        # Save to session
-        session.report_content = content
-        session.status = "completed"
-        db.commit()
-        
-        return ReportGenerateResponse(
-            session_id=session_id,
-            report_type=report_type,
-            content=content
-        )
-    
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Report generation failed: {str(e)}")
+        except Exception as e:
+            content = {
+                "clinicalIndication": context or "Non spécifié",
+                "findings": transcript,
+                "impression": "",
+                "recommendations": "",
+            }
+
+        if not isinstance(content, dict):
+            content = {
+                "clinicalIndication": context or "Non spécifié",
+                "findings": transcript,
+                "impression": "",
+                "recommendations": "",
+            }
+
+        content = {
+            "clinicalIndication": str(content.get("clinicalIndication") or (context or "Non spécifié")).strip(),
+            "findings": str(content.get("findings") or transcript).strip(),
+            "impression": str(content.get("impression") or "").strip(),
+            "recommendations": str(content.get("recommendations") or "").strip(),
+        }
+    else:
+        report_type = "documentation"
+        content = {"transcription": str(transcript or "").strip()}
+
+    session.report_content = content
+    session.status = "completed"
+    db.commit()
+
+    return ReportGenerateResponse(
+        session_id=session_id,
+        report_type=report_type,
+        content=content
+    )
 
 
 @router.get("/{session_id}")
