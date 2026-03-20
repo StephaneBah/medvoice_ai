@@ -716,7 +716,7 @@ const NewReport: React.FC<NewReportProps> = ({ onSave }) => {
                         <textarea
                           value={report.clinicalIndication}
                           onChange={(e) => handleEditReport('clinicalIndication', e.target.value)}
-                          className="w-full text-slate-300 text-sm leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 shadow-inner outline-none focus:border-cyan-500/30 min-h-[170px] resize-y"
+                          className="w-full text-slate-300 text-sm leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 shadow-inner outline-none focus:border-cyan-500/30 min-h-[170px] resize-y custom-scrollbar"
                         />
                       </section>
                       <section className="group">
@@ -730,7 +730,7 @@ const NewReport: React.FC<NewReportProps> = ({ onSave }) => {
                         <textarea
                           value={report.findings}
                           onChange={(e) => handleEditReport('findings', e.target.value)}
-                          className="w-full text-slate-300 text-sm leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 outline-none focus:border-cyan-500/30 min-h-[260px] resize-y"
+                          className="w-full text-slate-300 text-sm leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 outline-none focus:border-cyan-500/30 min-h-[260px] resize-y custom-scrollbar"
                         />
                       </section>
                     </div>
@@ -747,7 +747,7 @@ const NewReport: React.FC<NewReportProps> = ({ onSave }) => {
                         <textarea
                           value={report.impression}
                           onChange={(e) => handleEditReport('impression', e.target.value)}
-                          className="w-full text-white text-sm font-bold leading-7 bg-cyan-500/10 p-6 rounded-[30px] border border-cyan-500/30 shadow-[inset_0_0_20px_rgba(6,182,212,0.1)] outline-none focus:border-cyan-400 min-h-[180px] resize-y"
+                          className="w-full text-white text-sm font-bold leading-7 bg-cyan-500/10 p-6 rounded-[30px] border border-cyan-500/30 shadow-[inset_0_0_20px_rgba(6,182,212,0.1)] outline-none focus:border-cyan-400 min-h-[180px] resize-y custom-scrollbar"
                         />
                       </section>
                       <section className="group">
@@ -761,7 +761,7 @@ const NewReport: React.FC<NewReportProps> = ({ onSave }) => {
                         <textarea
                           value={report.recommendations}
                           onChange={(e) => handleEditReport('recommendations', e.target.value)}
-                          className="w-full text-slate-300 text-sm italic leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 outline-none focus:border-cyan-500/30 min-h-[170px] resize-y"
+                          className="w-full text-slate-300 text-sm italic leading-7 bg-white/5 p-5 rounded-[28px] border border-white/5 outline-none focus:border-cyan-500/30 min-h-[170px] resize-y custom-scrollbar"
                         />
                       </section>
                     </div>

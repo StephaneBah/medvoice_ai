@@ -81,9 +81,17 @@ Audio → Whisper ASR → CoT (ponctuation + correction) → Texte nettoyé
 
 - Python 3.10+
 - Node.js 18+
+- FFmpeg installé et accessible dans le PATH (`ffmpeg` et `ffprobe`)
 - GPU NVIDIA + CUDA (recommandé pour l'ASR)
 - Clé API Mistral
 - Token Hugging Face (pour le modèle ASR)
+
+Vérification rapide :
+
+```bash
+ffmpeg -version
+ffprobe -version
+```
 
 ### 1. Environnement Python
 
